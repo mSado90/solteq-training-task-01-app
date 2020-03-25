@@ -24,30 +24,9 @@ http://www.mulesoft.org/schema/mule/ftp http://www.mulesoft.org/schema/mule/ftp/
 			</scheduling-strategy>
 		</scheduler>
 		<http:request method="GET" doc:name="Request" doc:id="f7641f27-4816-490b-bbde-44611dd5c531" config-ref="HTTP_Request_configuration" path="/v2/shops/"/>
-		<ee:transform doc:name="Transform Message" doc:id="075761de-12b7-40e2-9b80-04e76f81f38d" >
-			<ee:message >
-				<ee:set-payload ><![CDATA[%dw 2.0
-output application/json
----
-payload map (item, ind) -> {
-	id: item.shopId,
-	name: item.displayName,
-	(address: item.streetAddress ++ ', ' ++ item.zip ++ ' ' ++ item.city)
-		if (not (isEmpty(item.streetAddress) or isEmpty(item.zip))),
-	openingHours: item.shopOpeningHours[0] filterObject $$$ > 2 mapObject {
-		(Monday: $ ++ '-' ++ payload[ind].shopOpeningHours.monEndTime[0]) if ($$$ == 0),
-		(Tuesday: $ ++ '-' ++ payload[ind].shopOpeningHours.tueEndTime[0]) if ($$$ == 2),
-		(Wednesday: $ ++ '-' ++ payload[ind].shopOpeningHours.wedEndTime[0]) if ($$$ == 4),
-		(Thursday: $ ++ '-' ++ payload[ind].shopOpeningHours.thuEndTime[0]) if ($$$ == 6),
-		(Friday: $ ++ '-' ++ payload[ind].shopOpeningHours.friEndTime[0]) if ($$$ == 8),
-		(Saturday: $ ++ '-' ++ payload[ind].shopOpeningHours.satEndTime[0]) if ($$$ == 10),
-		(Sunday: $ ++ '-' ++ payload[ind].shopOpeningHours.sunEndTime[0]) if ($$$ == 12),
-	},
-	offersDelivery: item.hasDelivery
-}
-
-
-]]></ee:set-payload>
+		<ee:transform doc:name="Transform Message" doc:id="075761de-12b7-40e2-9b80-04e76f81f38d">
+			<ee:message>
+				<ee:set-payload resource="mapping.dwl" />
 			</ee:message>
 		</ee:transform>
 		<file:write doc:name="Write" doc:id="1ce9656e-838f-4675-8952-093d4e5924a7" path="#['C:/Users/michal.sadecki/AnypointStudio/studio-workspace/training_task01/out/shopData_' ++ now() as String {format: &quot;YYYY-MM-dd_HH.mm&quot;} ++ '.json']" config-ref="File_Config">

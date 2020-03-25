@@ -1,7 +1,7 @@
 {
   "sampleData": {
     "075761de-12b7-40e2-9b80-04e76f81f38d": {
-      "payload": "sample_data/list_json_1.json"
+      "payload": "sample_data/list_json.json"
     }
   }
 }
