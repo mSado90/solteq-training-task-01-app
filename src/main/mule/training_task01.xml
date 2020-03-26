@@ -29,35 +29,16 @@ http://www.mulesoft.org/schema/mule/ftp http://www.mulesoft.org/schema/mule/ftp/
 				<ee:set-payload resource="mapping.dwl" />
 			</ee:message>
 		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="08504c65-0cde-4d4c-a60a-6bae1398ec9b" message="#[payload[sizeOf(payload) - 1].id]"/>
 		<file:write doc:name="Write" doc:id="1ce9656e-838f-4675-8952-093d4e5924a7" path="#['C:/Users/michal.sadecki/AnypointStudio/studio-workspace/training_task01/out/shopData_' ++ now() as String {format: &quot;YYYY-MM-dd_HH.mm&quot;} ++ '.json']" config-ref="File_Config">
 		</file:write>
 		<ftp:write doc:name="Write" doc:id="a73be0cd-d1c8-481b-b4ca-3aa311e33fe0" config-ref="FTP_Config2" path="#['/shopData_'++ now() as String {format: &quot;YYYY-MM-dd_HH.mm&quot;} ++ '.json']"/>
 		<error-handler>
 			<on-error-continue enableNotifications="true" logException="true" doc:name="On Error Continue" doc:id="5ee70a2c-b12b-47ef-8322-8b346151e12e" type="HTTP:NOT_FOUND">
-				<ee:transform doc:name="Transform Message" doc:id="6b62d129-91c8-4d4e-b9bd-a3fd7049690b" >
-					<ee:message >
-						<ee:set-payload ><![CDATA[%dw 2.0
-output application/json
----
-{
-	message: 'HTTP request not processed ' ++
-	 (error.description default '')
-}]]></ee:set-payload>
-					</ee:message>
-				</ee:transform>
+				<logger level="INFO" doc:name="Logger" doc:id="798a27ef-9bd6-420e-b447-0c5e4a8bf489" message="#['HTTP request has not been precessed.']"/>
 			</on-error-continue>
 			<on-error-continue enableNotifications="true" logException="true" doc:name="On Error Continue" doc:id="ee0129e4-15fa-4082-b708-6989ba597704" type="ANY">
-				<ee:transform doc:name="Transform Message" doc:id="dcb8ccbb-bae2-44bb-b213-0cb59a93a2ea" >
-					<ee:message >
-						<ee:set-payload ><![CDATA[%dw 2.0
-output application/json
----
-{
-	message: 'An error occured ' ++
-	 (error.description default '')
-}]]></ee:set-payload>
-					</ee:message>
-				</ee:transform>
+				<logger level="INFO" doc:name="Logger" doc:id="d383b906-1307-4e1f-b1d5-d7d2134cf155" message="#['An error occured']"/>
 			</on-error-continue>
 		</error-handler>
 	</flow>

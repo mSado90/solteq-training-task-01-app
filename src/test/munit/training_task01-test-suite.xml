@@ -33,8 +33,18 @@
 			<flow-ref doc:name="Flow-ref to training_task01Flow" doc:id="b98ec835-7d5d-4a2b-ad57-fb0892814ce7" name="training_task01Flow"/>
 		</munit:execution>
 		<munit:validation>
-			<munit-tools:assert-equals doc:name="Assert equals" doc:id="d76b7e40-d48b-4c99-8d5c-63c48cb0b59e" actual="#[payload[0].id]" expected="#[444]" message="#['Assertion failed']"/>
-			<munit-tools:assert-equals doc:name="Assert equals" doc:id="47c05b96-158e-4895-854e-6953f5db036c" actual="#[payload[1].name]" expected='#["Kotipizza Forssa - Tori"]' message="#['Assertion failed']"/>
+			<munit-tools:assert doc:name="Assert expression" doc:id="5110ffd0-d4f7-4003-80b9-72b7e87154ea" >
+				<munit-tools:that ><![CDATA[#[import * from dw::test::Asserts 
+ ---
+payload must [beArray(),
+	sizeOf(payload) must equalTo(278),
+	payload must eachItem(beObject()),
+	payload[sizeOf(payload) - 1] must haveValue(528),
+	payload[0].name must endWith('check no 5'),
+	payload[10].openingHours.Thursday must equalTo('07:00-02:00'),
+	payload must equalToResource('sample_data/sample_output.json', 'application/json')
+]]]]></munit-tools:that>
+			</munit-tools:assert>
 		</munit:validation>
 	</munit:test>
 
