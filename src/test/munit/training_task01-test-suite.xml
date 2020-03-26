@@ -8,6 +8,18 @@
 		http://www.mulesoft.org/schema/mule/munit http://www.mulesoft.org/schema/mule/munit/current/mule-munit.xsd
 		http://www.mulesoft.org/schema/mule/munit-tools  http://www.mulesoft.org/schema/mule/munit-tools/current/mule-munit-tools.xsd">
 	<munit:config name="training_task01-test-suite.xml" />
+	<munit:before-test name="training_task01-test-suiteBefore_Test" doc:id="06166518-2a83-46a1-8a49-f17f9d073c2d" >
+		<munit-tools:mock-when doc:name="File Write Mock" doc:id="bf7f113a-7d54-46a3-9467-e2c32df2204b" processor="file:write">
+				<munit-tools:with-attributes>
+					<munit-tools:with-attribute whereValue="1ce9656e-838f-4675-8952-093d4e5924a7" attributeName="doc:id" />
+				</munit-tools:with-attributes>
+			</munit-tools:mock-when>
+		<munit-tools:mock-when doc:name="FTP Write Mock" doc:id="167bd087-21eb-4929-b738-9098f8f6b305" processor="ftp:write">
+				<munit-tools:with-attributes>
+					<munit-tools:with-attribute whereValue="a73be0cd-d1c8-481b-b4ca-3aa311e33fe0" attributeName="doc:id" />
+				</munit-tools:with-attributes>
+			</munit-tools:mock-when>
+	</munit:before-test>
 	<munit:test name="training_task01-test-suite-training_task01FlowTest" doc:id="f50d5905-b272-4d34-8c46-30a1fa5c8315" description="Test">
 		<munit:behavior>
 			<munit-tools:mock-when doc:name="Request Mock" doc:id="5d82b075-305f-49fc-9d7d-0c4783720533" processor="http:request">
@@ -17,16 +29,6 @@
 				<munit-tools:then-return >
 					<munit-tools:payload value="#[readUrl('classpath://sample_data/list_json.json', 'application/json')]" />
 				</munit-tools:then-return>
-			</munit-tools:mock-when>
-			<munit-tools:mock-when doc:name="File Write Mock" doc:id="bf7f113a-7d54-46a3-9467-e2c32df2204b" processor="file:write">
-				<munit-tools:with-attributes >
-					<munit-tools:with-attribute whereValue="1ce9656e-838f-4675-8952-093d4e5924a7" attributeName="doc:id" />
-				</munit-tools:with-attributes>
-			</munit-tools:mock-when>
-			<munit-tools:mock-when doc:name="FTP Write Mock" doc:id="167bd087-21eb-4929-b738-9098f8f6b305" processor="ftp:write">
-				<munit-tools:with-attributes >
-					<munit-tools:with-attribute whereValue="a73be0cd-d1c8-481b-b4ca-3aa311e33fe0" attributeName="doc:id" />
-				</munit-tools:with-attributes>
 			</munit-tools:mock-when>
 		</munit:behavior>
 		<munit:execution >
@@ -45,6 +47,28 @@ payload must [beArray(),
 	payload must equalToResource('sample_data/sample_output.json', 'application/json')
 ]]]]></munit-tools:that>
 			</munit-tools:assert>
+		</munit:validation>
+	</munit:test>
+	<munit:test name="training_task01-test-suiteTest" doc:id="ed4f051c-c0e6-447b-8388-50293e106814" >
+		<munit:behavior >
+			<munit-tools:mock-when doc:name="Mock HTTP request error" doc:id="0e8536db-27ed-4508-a34c-ea678b205393" processor="http:request">
+				<munit-tools:with-attributes>
+					<munit-tools:with-attribute whereValue="f7641f27-4816-490b-bbde-44611dd5c531" attributeName="doc:id" />
+				</munit-tools:with-attributes>
+				<munit-tools:then-return>
+					<munit-tools:error typeId="HTTP:NOT_FOUND" />
+				</munit-tools:then-return>
+			</munit-tools:mock-when>
+		</munit:behavior>
+		<munit:execution >
+			<flow-ref doc:name="Flow Reference" doc:id="9784d2f0-1041-4719-922f-6fc2a1f1c923" name="training_task01Flow"/>
+		</munit:execution>
+		<munit:validation >
+			<munit-tools:verify-call doc:name="Verify call" doc:id="2b858861-4b8e-4fa3-af2f-fba96ceb5223" processor="logger" atLeast="1">
+				<munit-tools:with-attributes >
+					<munit-tools:with-attribute whereValue="798a27ef-9bd6-420e-b447-0c5e4a8bf489" attributeName="doc:id" />
+				</munit-tools:with-attributes>
+			</munit-tools:verify-call>
 		</munit:validation>
 	</munit:test>
 

@@ -3,6 +3,9 @@
     "075761de-12b7-40e2-9b80-04e76f81f38d": {},
     "5110ffd0-d4f7-4003-80b9-72b7e87154ea": {
       "payload": "sample_data/list_json_1.json"
+    },
+    "fa0bdf6c-7cb5-4c51-b5a9-95939caea1f0": {
+      "payload": "sample_data/list_message.dwl"
     }
   }
 }

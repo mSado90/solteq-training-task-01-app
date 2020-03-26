@@ -18,27 +18,21 @@ http://www.mulesoft.org/schema/mule/ftp http://www.mulesoft.org/schema/mule/ftp/
 		<file:connection workingDir="C:\Users\michal.sadecki\AnypointStudio\studio-workspace" />
 	</file:config>
 	<flow name="training_task01Flow" doc:id="f62e317b-d0a9-4c2b-928e-6e17083ea809" >
-		<scheduler doc:name="Scheduler" doc:id="956e1c11-fa7d-4af6-a155-6d1996615556" >
-			<scheduling-strategy >
-				<fixed-frequency frequency="300000"/>
-			</scheduling-strategy>
-		</scheduler>
-		<http:request method="GET" doc:name="Request" doc:id="f7641f27-4816-490b-bbde-44611dd5c531" config-ref="HTTP_Request_configuration" path="/v2/shops/"/>
+		<http:request method="GET" doc:name="Request" doc:id="f7641f27-4816-490b-bbde-44611dd5c531" path="/v2/shops/" config-ref="HTTP_Request_configuration"/>
 		<ee:transform doc:name="Transform Message" doc:id="075761de-12b7-40e2-9b80-04e76f81f38d">
 			<ee:message>
 				<ee:set-payload resource="mapping.dwl" />
 			</ee:message>
 		</ee:transform>
-		<logger level="INFO" doc:name="Logger" doc:id="08504c65-0cde-4d4c-a60a-6bae1398ec9b" message="#[payload[sizeOf(payload) - 1].id]"/>
-		<file:write doc:name="Write" doc:id="1ce9656e-838f-4675-8952-093d4e5924a7" path="#['C:/Users/michal.sadecki/AnypointStudio/studio-workspace/training_task01/out/shopData_' ++ now() as String {format: &quot;YYYY-MM-dd_HH.mm&quot;} ++ '.json']" config-ref="File_Config">
+		<file:write doc:name="Write" doc:id="1ce9656e-838f-4675-8952-093d4e5924a7" path="#['C:/Users/michal.sadecki/AnypointStudio/studio-workspace/training_task01/out/shopData_' ++ now() as String {format: &quot;YYYY-MM-dd_HH.mm&quot;} ++ '.json']">
 		</file:write>
-		<ftp:write doc:name="Write" doc:id="a73be0cd-d1c8-481b-b4ca-3aa311e33fe0" config-ref="FTP_Config2" path="#['/shopData_'++ now() as String {format: &quot;YYYY-MM-dd_HH.mm&quot;} ++ '.json']"/>
+		<ftp:write doc:name="Write" doc:id="a73be0cd-d1c8-481b-b4ca-3aa311e33fe0" path="#['/shopData_'++ now() as String {format: &quot;YYYY-MM-dd_HH.mm&quot;} ++ '.json']" config-ref="FTP_Config2"/>
 		<error-handler>
 			<on-error-continue enableNotifications="true" logException="true" doc:name="On Error Continue" doc:id="5ee70a2c-b12b-47ef-8322-8b346151e12e" type="HTTP:NOT_FOUND">
-				<logger level="INFO" doc:name="Logger" doc:id="798a27ef-9bd6-420e-b447-0c5e4a8bf489" message="#['HTTP request has not been precessed.']"/>
+				<logger level="ERROR" doc:name="Logger" doc:id="798a27ef-9bd6-420e-b447-0c5e4a8bf489" message="#['HTTP request has not been precessed.']"/>
 			</on-error-continue>
 			<on-error-continue enableNotifications="true" logException="true" doc:name="On Error Continue" doc:id="ee0129e4-15fa-4082-b708-6989ba597704" type="ANY">
-				<logger level="INFO" doc:name="Logger" doc:id="d383b906-1307-4e1f-b1d5-d7d2134cf155" message="#['An error occured']"/>
+				<logger level="ERROR" doc:name="Logger" doc:id="d383b906-1307-4e1f-b1d5-d7d2134cf155" message="#['An error occured']"/>
 			</on-error-continue>
 		</error-handler>
 	</flow>

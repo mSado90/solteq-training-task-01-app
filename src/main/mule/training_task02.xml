@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:ftp="http://www.mulesoft.org/schema/mule/ftp"
+	xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/ftp http://www.mulesoft.org/schema/mule/ftp/current/mule-ftp.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+	<flow name="training_task02Flow" doc:id="3e9fae8a-e678-4dab-ba0c-0a652a7df5ed" >
+		<ftp:list doc:name="List files from FTP" doc:id="a2cc0253-e75e-44b0-b3e9-82a1c87c0cba" config-ref="FTP_Config2" directoryPath="#['/']"/>
+		<logger level="INFO" doc:name="Logger" doc:id="2aee234e-0c35-4022-a8c0-0ed35197d5ff" message="#[payload]" />
+		<ee:transform doc:name="Transform Message" doc:id="fa0bdf6c-7cb5-4c51-b5a9-95939caea1f0" >
+			<ee:message >
+				<ee:set-payload resource="mapping02.dwl" />
+				<ee:set-attributes resource="mapping02.dwl" />
+			</ee:message>
+		</ee:transform>
+		<error-handler >
+			<on-error-continue enableNotifications="true" logException="true" doc:name="On Error Continue" doc:id="ee60ede8-4db4-4fc3-afb4-f7f82ea9aad5" type="FTP:ACCESS_DENIED">
+				<logger level="INFO" doc:name="Logger" doc:id="6b831a16-143f-4f64-9331-d5756b55a962" message="Access denied"/>
+			</on-error-continue>
+			<on-error-continue enableNotifications="true" logException="true" doc:name="On Error Continue" doc:id="fd97d0dc-9deb-4f91-ba3a-279a23eec25e" type="FTP:ILLEGAL_PATH">
+				<logger level="INFO" doc:name="Logger" doc:id="7ffaec69-8921-4c89-930f-e205becae09b" message="Illegal path"/>
+			</on-error-continue>
+		</error-handler>
+	</flow>
+</mule>

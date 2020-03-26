@@ -25,13 +25,4 @@ type training_data = Array<{|  shopId: Number {"typeId": "int"},   mainGroupId: 
 type: string]]></types:shape>
     </types:type>
   </types:catalog>
-  <types:enrichment select="#075761de-12b7-40e2-9b80-04e76f81f38d">
-    <types:processor-declaration>
-      <types:input-event>
-        <types:message>
-          <types:payload type="training_data"/>
-        </types:message>
-      </types:input-event>
-    </types:processor-declaration>
-  </types:enrichment>
 </types:mule>

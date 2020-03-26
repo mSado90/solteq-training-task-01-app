@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:ftp="http://www.mulesoft.org/schema/mule/ftp" xmlns:file="http://www.mulesoft.org/schema/mule/file"
+	xmlns:sockets="http://www.mulesoft.org/schema/mule/sockets"
+	xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/sockets http://www.mulesoft.org/schema/mule/sockets/current/mule-sockets.xsd
+http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd
+http://www.mulesoft.org/schema/mule/ftp http://www.mulesoft.org/schema/mule/ftp/current/mule-ftp.xsd">
+	<http:listener-config name="HTTP_Listener_config1" doc:name="HTTP Listener config" doc:id="64e3e642-8cca-4cab-aaed-c6d7645a482b" >
+		<http:listener-connection host="0.0.0.0" port="8081" />
+	</http:listener-config>
+	<flow name="training_task01_endpoints" doc:id="f62e317b-d0a9-4c2b-928e-6e17083ea809" >
+		<scheduler doc:name="Scheduler" doc:id="956e1c11-fa7d-4af6-a155-6d1996615556" >
+			<scheduling-strategy >
+				<fixed-frequency frequency="300000"/>
+			</scheduling-strategy>
+		</scheduler>
+		<flow-ref doc:name="Flow Reference" doc:id="9af394a6-a963-4291-8765-1c9d7fbcc7d4" name="training_task01Flow"/>
+	</flow>
+	<flow name="training_task02_endpoints" doc:id="a1910827-f713-4387-b597-a20a0f8969b2" >
+		<http:listener doc:name="Listener" doc:id="5f0a52c8-0654-445b-a853-b832c36eae1f" config-ref="HTTP_Listener_config1" path="/"/>
+		<flow-ref doc:name="Flow Reference" doc:id="ca16ccb1-b4e6-416c-ad11-d9a6d7508d01" name="training_task02Flow"/>
+	</flow>
+</mule>
