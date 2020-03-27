@@ -23,4 +23,8 @@ http://www.mulesoft.org/schema/mule/ftp http://www.mulesoft.org/schema/mule/ftp/
 		<http:listener doc:name="Listener" doc:id="5f0a52c8-0654-445b-a853-b832c36eae1f" config-ref="HTTP_Listener_config1" path="/"/>
 		<flow-ref doc:name="Flow Reference" doc:id="ca16ccb1-b4e6-416c-ad11-d9a6d7508d01" name="training_task02Flow"/>
 	</flow>
+	<flow name="training_task03_endpoints" doc:id="d06f959b-dd16-4441-9953-659e0a6a5750" >
+		<http:listener doc:name="Listener" doc:id="68ab5cc5-a625-4fbd-b2fb-85e39edcb621" config-ref="HTTP_Listener_config1" path="/{fileName}"/>
+		<flow-ref doc:name="Flow Reference" doc:id="c40ac20d-f4ee-478c-974f-512f7cf0b818" name="training_task03Flow1"/>
+	</flow>
 </mule>
