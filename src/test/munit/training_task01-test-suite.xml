@@ -71,6 +71,28 @@ payload must [beArray(),
 			</munit-tools:verify-call>
 		</munit:validation>
 	</munit:test>
+	<munit:test name="training_task01-test-suiteTest1" doc:id="7dac2972-3658-4151-8d99-afca51c86ba5" >
+		<munit:behavior >
+			<munit-tools:mock-when doc:name="Mock when" doc:id="3e8e7609-3f2c-4952-9a64-b9f250c1c15e" processor="http:request">
+				<munit-tools:with-attributes >
+					<munit-tools:with-attribute whereValue="f7641f27-4816-490b-bbde-44611dd5c531" attributeName="doc:id" />
+				</munit-tools:with-attributes>
+				<munit-tools:then-return >
+					<munit-tools:error typeId="ANY" />
+				</munit-tools:then-return>
+			</munit-tools:mock-when>
+		</munit:behavior>
+		<munit:execution >
+			<flow-ref doc:name="Flow Reference" doc:id="a9a66e96-a697-4cfd-90b8-5241817b8b42" name="training_task01Flow"/>
+		</munit:execution>
+		<munit:validation >
+			<munit-tools:verify-call doc:name="Verify call" doc:id="716a6f1a-5f4a-41d6-a847-178fd8f66739" processor="logger" atLeast="1">
+				<munit-tools:with-attributes >
+					<munit-tools:with-attribute whereValue="d383b906-1307-4e1f-b1d5-d7d2134cf155" attributeName="doc:id" />
+				</munit-tools:with-attributes>
+			</munit-tools:verify-call>
+		</munit:validation>
+	</munit:test>
 
 
 </mule>

@@ -15,7 +15,7 @@
 					<munit-tools:with-attribute whereValue="a2cc0253-e75e-44b0-b3e9-82a1c87c0cba" attributeName="doc:id" />
 				</munit-tools:with-attributes>
 				<munit-tools:then-return >
-					<munit-tools:payload value='#[[{"attributes" : {"fileName": "shopData_2020-03-24_14.18.json"}}]]' />
+					<munit-tools:payload value='#[ [{"attributes" : {"fileName": "shopData_2020-03-24_14.18.json"}}] ]' />
 				</munit-tools:then-return>
 			</munit-tools:mock-when>
 		</munit:behavior>
@@ -33,7 +33,7 @@ payload must [
 			</munit-tools:assert>
 		</munit:validation>
 	</munit:test>
-	<munit:test name="training_task02-test-suiteTest" doc:id="a4317d32-54f4-4bbe-96c6-0819e03d24b2" >
+	<munit:test name="training_task02-test-suiteTest" doc:id="a4317d32-54f4-4bbe-96c6-0819e03d24b2">
 		<munit:behavior >
 			<munit-tools:mock-when doc:name="Mock List from FTP Error" doc:id="cba4a6f3-90ce-497e-9fdd-b266c578a2db" processor="ftp:list">
 				<munit-tools:with-attributes >
@@ -55,7 +55,7 @@ payload must [
 			</munit-tools:verify-call>
 		</munit:validation>
 	</munit:test>
-	<munit:test name="training_task02-test-suiteTest1" doc:id="5ef81d8c-db1f-485d-8dff-c216bb5443ed" >
+	<munit:test name="training_task02-test-suiteTest1" doc:id="5ef81d8c-db1f-485d-8dff-c216bb5443ed">
 		<munit:behavior >
 			<munit-tools:mock-when doc:name="Mock when" doc:id="2fb76919-9d89-4341-b173-86e670f95889" processor="ftp:list">
 				<munit-tools:with-attributes >
