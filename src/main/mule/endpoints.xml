@@ -25,9 +25,10 @@ http://www.mulesoft.org/schema/mule/ftp http://www.mulesoft.org/schema/mule/ftp/
 	</flow>
 	<flow name="training_task03_endpoints" doc:id="d06f959b-dd16-4441-9953-659e0a6a5750" >
 		<http:listener doc:name="Listener" doc:id="68ab5cc5-a625-4fbd-b2fb-85e39edcb621" config-ref="HTTP_Listener_config1" path="/{fileName}">
-			<http:error-response statusCode="404">
-				<http:body ><![CDATA[#[output text/plain --- 
-'File not found ' ++ (error.description default "")]]]></http:body>
+			<http:error-response statusCode="#[404]">
+				<http:body ><![CDATA[#[output text/plain 
+--- 
+'File not found ' ++ (error.description default "") ++ ' 404']]]></http:body>
 			</http:error-response>
 		</http:listener>
 		<flow-ref doc:name="Flow Reference" doc:id="c40ac20d-f4ee-478c-974f-512f7cf0b818" name="training_task03Flow1"/>
