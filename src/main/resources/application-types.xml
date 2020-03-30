@@ -24,5 +24,22 @@ type training_data = Array<{|  shopId: Number {"typeId": "int"},   mainGroupId: 
       <types:shape format="raml"><![CDATA[#%RAML 1.0 DataType
 type: string]]></types:shape>
     </types:type>
+    <types:type name="file_list" format="json">
+      <types:shape format="weave" example="examples/sample_files_list.json"><![CDATA[%dw 2.0
+
+type file_list = Array<String> {"example": "[\\\"shopData_2020-03-24_14.18.json\\\",\\\"shopData_2020-03-26_09.48.json\\\",\\\"shopData_2020-03-26_09.52.json\\\",\\\"shopData_2020-03-26_09.53.json\\\",\\\"shopData_2020-03-26_13.56.json\\\",\\\"shopData_2020-03-26_14.01.json\\\",\\\"shopData_2020-03-26_14.06.json\\\",\\\"shopData_2020-03-26_14.07.json\\\",\\\"shopData_2020-03-26_14.08.json\\\",\\\"shopData_2020-03-26_14.16.json\\\"]"}
+
+]]></types:shape>
+    </types:type>
   </types:catalog>
+  <types:enrichment select="#75e6eef4-7a4c-4c04-85a2-12ce6c7216b2">
+    <types:processor-declaration>
+      <types:input-event>
+        <types:message>
+          <types:payload type="file_list"/>
+        </types:message>
+      </types:input-event>
+    </types:processor-declaration>
+  </types:enrichment>
+  <types:enrichment select="#fa0bdf6c-7cb5-4c51-b5a9-95939caea1f0"/>
 </types:mule>

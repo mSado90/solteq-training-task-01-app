@@ -1,4 +1,6 @@
 %dw 2.0
 output application/json
+
 ---
-payload.attributes.fileName
+
+(payload.attributes filter $.directory == false).fileName

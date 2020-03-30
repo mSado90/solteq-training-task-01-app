@@ -1,0 +1,4153 @@
+[
+  {
+    "id": 156,
+    "name": "Kotipizza Vaasa - Suvilahti - Synchronizer check no 5",
+    "address": "Teirinkatu 6, 65350 Vaasa",
+    "openingHours": {
+      "Monday": "07:00-00:00",
+      "Tuesday": "07:00-23:00",
+      "Wednesday": "07:00-22:00",
+      "Thursday": "07:00-00:00",
+      "Friday": "07:00-00:00",
+      "Saturday": "07:00-00:00",
+      "Sunday": "07:00-00:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 157,
+    "name": "Kotipizza Vaasa - Palosaari",
+    "address": "Palosaarentie 16, 65200 Vaasa",
+    "openingHours": {
+      "Monday": "07:00-02:00",
+      "Tuesday": "07:00-02:00",
+      "Wednesday": "07:00-02:00",
+      "Thursday": "07:00-02:00",
+      "Friday": "07:00-02:00",
+      "Saturday": "08:00-02:00",
+      "Sunday": "08:00-02:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 158,
+    "name": "Kotipizza Jyväskylä - Keskusta Voionmaankatu",
+    "address": "Voionmaankatu 34, 40700 Jyväskylä",
+    "openingHours": {
+      "Monday": "07:00-02:00",
+      "Tuesday": "07:00-02:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-02:00",
+      "Friday": "07:00-02:00",
+      "Saturday": "19:00-02:00",
+      "Sunday": "19:00-02:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 159,
+    "name": "Kotipizza Kuopio - Satama",
+    "address": "Minna Canthin katu 4, 70100 Kuopio",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-17:00",
+      "Wednesday": "07:00-05:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 161,
+    "name": "Kotipizza Närpiö - Keskusta",
+    "address": "Kambvägen 2 A, 64200 Närpiö 53st",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-20:00",
+      "Friday": "07:00-20:00",
+      "Saturday": "11:00-20:00",
+      "Sunday": "11:00-20:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 162,
+    "name": "Kotipizza Vaasa - Huutoniemi",
+    "address": "Kuninkaantie 72-74, 65320 Vaasa",
+    "openingHours": {
+      "Monday": "07:00-01:00",
+      "Tuesday": "07:00-01:00",
+      "Wednesday": "07:00-01:00",
+      "Thursday": "07:00-01:00",
+      "Friday": "07:00-01:00",
+      "Saturday": "05:00-01:00",
+      "Sunday": "05:00-01:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 163,
+    "name": "Kotipizza Kauhajoki - Keskusta Topeeka",
+    "address": "Topeeka 52, 61800 Kauhajoki",
+    "openingHours": {
+      "Monday": "07:00-03:00",
+      "Tuesday": "07:00-03:00",
+      "Wednesday": "07:00-03:00",
+      "Thursday": "07:00-03:00",
+      "Friday": "07:00-03:00",
+      "Saturday": "12:00-03:00",
+      "Sunday": "12:00-03:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 164,
+    "name": "Kotipizza Kauhava - Keskusta",
+    "address": "Fransuntie 4, 62200 Kauhava",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-20:00",
+      "Friday": "07:00-20:00",
+      "Saturday": "08:00-20:00",
+      "Sunday": "08:00-20:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 165,
+    "name": "Kotipizza Oulu - Länsi-Tuira",
+    "address": "Valtatie 21, 90500 Oulu",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-20:00",
+      "Friday": "07:00-20:00",
+      "Saturday": "05:00-20:00",
+      "Sunday": "05:00-20:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 166,
+    "name": "Kotipizza Savonlinna - Keskusta",
+    "address": "Olavinkatu 35, 57130 Savonlinna",
+    "openingHours": {
+      "Monday": "07:00-14:00",
+      "Tuesday": "07:00-14:00",
+      "Wednesday": "07:00-14:00",
+      "Thursday": "07:00-14:00",
+      "Friday": "07:00-14:00",
+      "Saturday": "22:00-14:00",
+      "Sunday": "22:00-14:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 167,
+    "name": "Kotipizza Vantaa - Myyrmäki",
+    "address": "Uomatie 13, 01600 Vantaa",
+    "openingHours": {
+      "Monday": "07:00-02:00",
+      "Tuesday": "07:00-22:00",
+      "Wednesday": "07:00-02:00",
+      "Thursday": "07:00-02:00",
+      "Friday": "07:00-01:00",
+      "Saturday": "12:00-20:00",
+      "Sunday": "12:00-20:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 168,
+    "name": "Kotipizza Vaasa - Vetokannas",
+    "address": "Palosaarentie 77, 65200 Vaasa",
+    "openingHours": {
+      "Monday": "07:00-10:35",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "12:00-21:30",
+      "Sunday": "12:00-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 169,
+    "name": "Kotipizza Kajaani - Keskusta Kirkkokatu",
+    "address": "Kirkkokatu 21, 87100 Kajaani",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:30-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 170,
+    "name": "Kotipizza Iisalmi - Keskusta",
+    "address": "Kirkkopuistonkatu 19, 74100 Iisalmi",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-17:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 171,
+    "name": "Kotipizza Forssa - Tori",
+    "address": "Torikatu 1 (torilla), 30100 Forssa",
+    "openingHours": {
+      "Monday": "07:00-17:00",
+      "Tuesday": "07:00-17:00",
+      "Wednesday": "07:00-17:00",
+      "Thursday": "07:00-17:00",
+      "Friday": "07:00-17:00",
+      "Saturday": "16:00-17:00",
+      "Sunday": "16:00-17:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 172,
+    "name": "Kotipizza Mustasaari - Sepänkylä",
+    "address": "Markkinakuja 2, 65610 Mustasaari",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:30-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 173,
+    "name": "Kotipizza Oulu - Keskusta Hallituskatu",
+    "address": "Hallituskatu 25, 90100 Oulu",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-20:00",
+      "Friday": "07:00-20:00",
+      "Saturday": "05:00-20:00",
+      "Sunday": "05:00-20:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 174,
+    "name": "Kotipizza Kotka - Kotkansaari Keskuskatu",
+    "address": "Keskuskatu 23, 48100 Kotka",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-23:00",
+      "Friday": "07:00-23:00",
+      "Saturday": "11:00-04:30",
+      "Sunday": "11:00-21:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 175,
+    "name": "Kotipizza Rovaniemi - Keskusta, Koskikatu",
+    "address": "Koskikatu 5, 96200 Rovaniemi",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-21:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 176,
+    "name": "Kotipizza Siilinjärvi - Keskusta",
+    "address": "Kuiluntie 5, 71800 Siilinjärvi",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:30-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 177,
+    "name": "Kotipizza Kuusankoski",
+    "address": "Kymenlaaksonkatu 2 B, 45700 Kuusankoski",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "12:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 178,
+    "name": "Kotipizza Hämeenlinna - Keskusta Lukiokatu",
+    "address": "Lukiokatu 20, 13100 Hämeenlinna",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 179,
+    "name": "Kotipizza Seinäjoki - Törnävä",
+    "address": "Törnäväntie 21, 60200 Seinäjoki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 180,
+    "name": "Kotipizza Järvenpää - Terhola, Helsingintie",
+    "address": "Helsingintie 44, 04430 Järvenpää",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "11:00-21:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 181,
+    "name": "Kotipizza Riihimäki - Ankkapuisto",
+    "address": "Valtakatu 4, 11130 Riihimäki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 182,
+    "name": "Kotipizza Kajaani - Variskangas",
+    "address": "Sirkunpolku 2, 87400 Kajaani",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:30-20:30",
+      "Sunday": "11:30-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 183,
+    "name": "Kotipizza Turku - Keskusta Uudenmaankatu",
+    "address": "Uudenmaankatu 19, 20700 Turku",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-21:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 184,
+    "name": "Kotipizza Mikkeli - Keskusta",
+    "address": "Hallituskatu 6, 50100 Mikkeli",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "06:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 185,
+    "name": "Kotipizza Tammisaari - Keskusta",
+    "address": "Kustaa Vaasan katu 7 A, 10600 Tammisaari",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 186,
+    "name": "Kotipizza Jyväskylä - Vaajakoski",
+    "address": "Vesmannintie 4, 40800 Vaajakoski",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 188,
+    "name": "Kotipizza Rovaniemi - Keskusta Pohjolankatu",
+    "address": "Pohjolankatu 4-6, 96100 Rovaniemi",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-21:00",
+      "Thursday": "07:00-21:00",
+      "Friday": "07:00-21:00",
+      "Saturday": "10:30-21:00",
+      "Sunday": "11:30-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 189,
+    "name": "Kotipizza Kauniainen - Kauppakeskus Grani",
+    "address": "Kauniaistentie 7, 02700 Kauniainen",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-00:00",
+      "Thursday": "07:00-00:00",
+      "Friday": "07:00-00:00",
+      "Saturday": "00:00-00:00",
+      "Sunday": "00:00-00:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 190,
+    "name": "Kotipizza Kokkola - Kallentori",
+    "address": "Rautatienkatu 10/K-Supermarket Kokkola, 67100 Kokkola",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "10:30-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 191,
+    "name": "Kotipizza Mänstälä - Keskusta",
+    "address": "Keskuskatu 12, 04600 Mäntsälä",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:30-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 192,
+    "name": "Kotipizza Sotkamo - Keskusta",
+    "address": "Torikatu 1, 88600 Sotkamo",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "10:30-20:30",
+      "Sunday": "11:30-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 193,
+    "name": "Kotipizza Karjaa - Keskusta",
+    "address": "Ratakatu 63, 10300 Karjaa",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 194,
+    "name": "Kotipizza Lempäälä - Keskusta",
+    "address": "Himminpolku 1, 37500 Lempäälä",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-17:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 195,
+    "name": "Kotipizza Vaasa - Keskusta Kirkkopuistikko",
+    "address": "Kirkkopuistikko 5, 65100 Vaasa",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 196,
+    "name": "Kotipizza Seinäjoki - Ruukintie",
+    "address": "Vaahterakuja 1, 60100 Seinäjoki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 197,
+    "name": "Kotipizza Porvoo - K-Supermarket Tarmola",
+    "address": "Asentajantie 1, 06100 Porvoo",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "10:00-21:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 198,
+    "name": "Kotipizza Turku - Keskusta Humalistonkatu",
+    "address": "Humalistonkatu 5, 20100 Turku",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-21:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 199,
+    "name": "Kotipizza Maarianhamina",
+    "address": "Nygatan 1, 22100 Mariehamn",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "12:00-19:30",
+      "Sunday": "12:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 200,
+    "name": "Kotipizza Salo - Sillankulma",
+    "address": "Horninkatu 17, 24100 Salo",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "10:30-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 201,
+    "name": "Kotipizza Lahti - Hennala",
+    "address": "Rykmentinkatu 1, 15700 Lahti",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 202,
+    "name": "Kotipizza Tampere - K-Citymarket Linnainmaa",
+    "address": "Mäentakusenkatu 1, 33580 Tampere",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 203,
+    "name": "Kotipizza Helsinki - Kallio Porthaninkatu",
+    "address": "Porthaninkatu 11, 00530 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-23:30",
+      "Wednesday": "07:00-23:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "11:00-21:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 204,
+    "name": "Kotipizza Ii",
+    "address": "Sorosentie 2, 91100 Ii",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 206,
+    "name": "Kotipizza Raisio - Keskusta Raisiontori",
+    "address": "Raisiontori 5, 21200 Raisio",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 207,
+    "name": "Kotipizza Turku - Keskusta Hämeentie",
+    "address": "Hämeentie 20, 20540 Turku",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 209,
+    "name": "Kotipizza Uusikaupunki - Linja-autoasema",
+    "address": "Linja-autoasema, 23500 Uusikaupunki",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 210,
+    "name": "Kotipizza Helsinki - Keskusta Kruununhaka",
+    "address": "Mariankatu 10, 00170 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 211,
+    "name": "Kotipizza Kajaani - Keskusta Kasarminkatu",
+    "address": "Kasarminkatu 20, 87100 Kajaani",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:30-20:30",
+      "Sunday": "11:30-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 212,
+    "name": "Kotipizza Turku - Keskusta Länsiportti",
+    "address": "Viilarinkatu 1, 20320 Turku",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 213,
+    "name": "Kotipizza Lappeenranta - Leiri",
+    "address": "Lavolankatu 10, 53600 Lappeenranta",
+    "openingHours": {
+      "Monday": "07:00-21:00",
+      "Tuesday": "07:00-21:00",
+      "Wednesday": "07:00-21:00",
+      "Thursday": "07:00-21:00",
+      "Friday": "07:00-21:00",
+      "Saturday": "10:30-21:00",
+      "Sunday": "10:30-21:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 214,
+    "name": "Kotipizza Laihia",
+    "address": "Pankkikuja 1, 66400 Laihia",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 215,
+    "name": "Kotipizza Hamina - Keskusta",
+    "address": "Sibeliuskatu 32 A, 49400 Hamina",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 216,
+    "name": "Kotipizza Kotka - Karhula",
+    "address": "Karhulantie 30, 48600 Kotka",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 217,
+    "name": "Kotipizza Pirkkala - Partolan ostoskeskus",
+    "address": "Kenkätie 4, 33950 Pirkkala",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 219,
+    "name": "Kotipizza Orimattila",
+    "address": "Erkontie 12, 16300 Orimattila",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 220,
+    "name": "Kotipizza Kuusamo - Ruka",
+    "address": "Rukatunturintie, 93825 Rukatunturi",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "10:00-21:30",
+      "Sunday": "10:00-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 221,
+    "name": "Kotipizza Hyllykallio",
+    "address": "Kaarretie 2, 60510 Hyllykallio",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "12:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 222,
+    "name": "Kotipizza Jyväskylä - Keljonkeskus",
+    "address": "Tervalankatu 10, 40500 Jyväskylä",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 223,
+    "name": "Kotipizza Espoo - Kauppakeskus Pikkulaiva",
+    "address": "Ulappakatu 2, 02320 Espoo",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:30-19:30",
+      "Sunday": "12:00-18:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 224,
+    "name": "Kotipizza Lahti - Metsäkangas",
+    "address": "Petsamonkatu 9, 15830 Lahti",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 225,
+    "name": "Kotipizza Kuopio - K-Citymarket Kolmisoppi",
+    "address": "Kolmisopentie 1, 70780 Kuopio",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:00-19:30",
+      "Sunday": "11:00-18:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 226,
+    "name": "Kotipizza Vantaa - Tammisto",
+    "address": "Säätökuja 2, 01510 Vantaa",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 227,
+    "name": "Kotipizza Seinäjoki - Jouppi K-Citymarket",
+    "address": "Suupohjantie 45, 60320 Seinäjoki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-19:30",
+      "Sunday": "12:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 228,
+    "name": "Kotipizza Oulu - Kaakkuri Bauhaus",
+    "address": "Kaakkurinkulma 2, 90410 Oulu",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-20:00",
+      "Friday": "07:00-20:00",
+      "Saturday": "05:00-20:00",
+      "Sunday": "05:00-20:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 229,
+    "name": "Kotipizza Äänekoski - Neste Äänekoski",
+    "address": "Torikatu 9, 44100 Äänekoski",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-20:00",
+      "Friday": "07:00-20:00",
+      "Saturday": "11:00-20:00",
+      "Sunday": "11:00-20:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 230,
+    "name": "Kotipizza Tampere - Keskusta Aleksanterinkatu",
+    "address": "Aleksanterinkatu 29 B, 33100 Tampere",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 231,
+    "name": "Kotipizza Jyväskylä - Seppälä K-Citymarket",
+    "address": "Vasarakatu 29, 40320 Jyväskylä",
+    "openingHours": {
+      "Monday": "07:00-21:00",
+      "Tuesday": "07:00-21:00",
+      "Wednesday": "07:00-21:00",
+      "Thursday": "07:00-21:00",
+      "Friday": "07:00-21:00",
+      "Saturday": "11:00-19:30",
+      "Sunday": "12:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 232,
+    "name": "Kotipizza Raisio - Bauhaus Raisio",
+    "address": "Kuloistentie 1, 21280 Raisio",
+    "openingHours": {
+      "Monday": "07:00-19:15",
+      "Tuesday": "07:00-19:15",
+      "Wednesday": "07:00-19:15",
+      "Thursday": "07:00-19:15",
+      "Friday": "07:00-19:15",
+      "Saturday": "09:00-17:15",
+      "Sunday": "12:00-17:15"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 233,
+    "name": "Kotipizza Helsinki - Roihuvuori",
+    "address": "Roihuvuorentie 26, 00820 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 234,
+    "name": "Kotipizza Kangasala - K-Supermarket",
+    "address": "Finnentie 1, 36200 Kangasala",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 235,
+    "name": "Kotipizza Kouvola - Kauppakeskus Veturi",
+    "address": "Tervasharjunkatu 1, 45720 Kouvola",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:00-19:30",
+      "Sunday": "12:00-18:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 236,
+    "name": "Kotipizza Levi",
+    "address": "Hissitie 11, 99130 Levi",
+    "openingHours": {
+      "Monday": "07:00-19:00",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:30-19:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 237,
+    "name": "Kotipizza Kuopio - K-Citymarket Päiväranta ",
+    "address": "Päivärannantie 18, 70420 Kuopio",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-19:30",
+      "Sunday": "11:00-18:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 238,
+    "name": "Kotipizza Oulu - Ideapark Oulu",
+    "address": "Ritaharjuntie 49, 90540 Oulu",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "11:00-17:30",
+      "Sunday": "12:00-17:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 239,
+    "name": "Kotipizza Tahkovuori - Tahko Spa",
+    "address": "Keitaankatu 1, 73310 Tahkovuori",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-17:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 240,
+    "name": "Kotipizza Espoo - Tapiola",
+    "address": "Louhentie 2, 02130 Espoo",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "18:00-20:30",
+      "Sunday": "18:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 241,
+    "name": "Kotipizza Helsinki - Munkkiniemi",
+    "address": "Munkkiniemen Puistotie 16, 00330 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:30-20:30",
+      "Sunday": "11:30-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 242,
+    "name": "Kotipizza Joensuu - Keskusta",
+    "address": "Kauppakatu 29, 80100 Joensuu",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "07:00-20:30",
+      "Sunday": "07:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 243,
+    "name": "Kotipizza Lappeenranta - Kauppakeskus Iso-Kristiina",
+    "address": "Brahenkatu 5-7, 53100  Lappeenranta",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:30-20:30",
+      "Sunday": "12:00-18:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 244,
+    "name": "Kotipizza Jämsä - Neste Jämsä",
+    "address": "Kauhkialantie 108, 42100 Jämsä",
+    "openingHours": {
+      "Monday": "07:00-21:00",
+      "Tuesday": "07:00-21:00",
+      "Wednesday": "07:00-21:00",
+      "Thursday": "07:00-21:00",
+      "Friday": "07:00-21:00",
+      "Saturday": "10:00-21:00",
+      "Sunday": "10:00-21:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 245,
+    "name": "Kotipizza Kaustinen - Neste Kaustinen",
+    "address": "Teerijärventie 1, 69600 Kaustinen",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 246,
+    "name": "Kotipizza Raahe - Neste Raahe",
+    "address": "Purotie 1, 92140 Pattijoki",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "12:00-19:30",
+      "Sunday": "12:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 247,
+    "name": "Kotipizza Lapinlahti - Neste Lapinlahti Matin ja Liisan Asema",
+    "address": "Kuopiontie 210, 73100 Lapinlahti",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "11:00-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 248,
+    "name": "Kotipizza Ylivieska",
+    "address": "Rautatiekatu 6, 84100 Ylivieska",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 249,
+    "name": "Kotipizza Pietarsaari - Keskusta",
+    "address": "Otto Malmin katu 16, 68600 Pietarsaari",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 250,
+    "name": "Kotipizza Tampere - Kaukajärvi",
+    "address": "Keskisenkatu 5, 33710 Tampere",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 251,
+    "name": "Kotipizza Kurikka - K-Supermarket Laurintie",
+    "address": "Laurintie 22, 61300 Kurikka",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 252,
+    "name": "Kotipizza Heinola - Keskusta",
+    "address": "Savontie 13, 18100 Heinola",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 253,
+    "name": "Kotipizza Jyväskylä - Kuokkala",
+    "address": "Syöttäjänkatu 2, 40520 Jyväskylä",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:30-20:30",
+      "Sunday": "10:30-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 254,
+    "name": "Kotipizza Tampere - Kaleva",
+    "address": "Teiskontie 25, 33500 Tampere",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 255,
+    "name": "Kotipizza Espoo - Matinkylä",
+    "address": "Kala-Maija 2, 02230 Espoo",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 256,
+    "name": "Kotipizza Vaasa - Keskusta, Rewell Center",
+    "address": "Rewell Center 136, 65100 Vaasa",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:30-19:30",
+      "Sunday": "12:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 257,
+    "name": "Kotipizza Tampere - Lielahti",
+    "address": "Pohtolankatu 47, 33400 Tampere",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 258,
+    "name": "Kotipizza Haukipudas",
+    "address": "Revontie 3, 90830 Haukipudas",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 262,
+    "name": "Kotipizza Hämeenlinna - Hätilä",
+    "address": "Hätilänkatu 2, 13210 Hämeenlinna",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "12:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 263,
+    "name": "Kotipizza Vaasa - Keskusta Korsholmanpuistikko",
+    "address": "Korsholmanpuistikko 17, 65100 Vaasa",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 265,
+    "name": "Kotipizza Helsinki - Keskusta Annankatu",
+    "address": "Annankatu 6, 00120 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-21:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 266,
+    "name": "Kotipizza Kirkkonummi - K-Citymarket",
+    "address": "Asemankulma 2, 02400 Kirkkonummi",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:00-19:30",
+      "Sunday": "12:00-17:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 267,
+    "name": "Kotipizza Helsinki - Töölö",
+    "address": "Topeliuksenkatu 21, 00250 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "11:00-21:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 268,
+    "name": "Kotipizza Kokkola - Heinolankaari",
+    "address": "Heinolankaari 12, 67600 Kokkola",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 269,
+    "name": "Kotipizza Helsinki - Etelä-Haaga",
+    "address": "Vihdintie 13, 00320 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:30-20:30",
+      "Sunday": "11:30-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 270,
+    "name": "Kotipizza Helsinki - Oulunkylä",
+    "address": "Siltavoudintie 9-11, 00640 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 271,
+    "name": "Kotipizza Ylöjärvi - Kauppakeskus Elo",
+    "address": "Elotie 1, 33470 Ylöjärvi",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 272,
+    "name": "Kotipizza Turku - Harittu",
+    "address": "Muntionkatu 17, 20740 Turku",
+    "openingHours": {
+      "Monday": "07:00-21:00",
+      "Tuesday": "07:00-21:00",
+      "Wednesday": "07:00-21:00",
+      "Thursday": "07:00-21:00",
+      "Friday": "07:00-21:00",
+      "Saturday": "11:00-21:00",
+      "Sunday": "12:00-21:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 273,
+    "name": "Kotipizza Espoo - Kauppakeskus Sello Viaporintori",
+    "address": "Leppävaarankatu 3- 9, 02600 Espoo",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:30-19:30",
+      "Sunday": "12:00-19:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 274,
+    "name": "Kotipizza Nummela - K-Citymarket",
+    "address": "Tuusankaari 1, 03100 Nummela",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:00-18:30",
+      "Sunday": "12:00-17:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 275,
+    "name": "Kotipizza Helsinki - Malmi, Ala-Malmin tori",
+    "address": "Ala-Malmin tori 4, 00700 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 276,
+    "name": "Kotipizza Tampere - Turtola K-Citymarket",
+    "address": "Martinpojankatu 4, 33700 Tampere",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:00-19:30",
+      "Sunday": "12:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 277,
+    "name": "Kotipizza Lahti - Ankkurin ostoskeskus",
+    "address": "Ankkurikatu 1, 15140 Lahti",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 278,
+    "name": "Kotipizza Lempäälä - Ideapark",
+    "address": "Ideaparkinkatu 4, 37550 Lempäälä",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "11:00-19:30",
+      "Sunday": "12:00-17:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 279,
+    "name": "Kotipizza Vaasa - Keskusta Minimani",
+    "address": "Laivakatu 13, 65100 Vaasa",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:00-17:30",
+      "Sunday": "12:00-17:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 280,
+    "name": "Kotipizza Espoo - Martinsillantie 10",
+    "address": "Martinsillantie 10, 02270 Espoo",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:30-20:30",
+      "Sunday": "10:30-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 281,
+    "name": "Kotipizza Lapua",
+    "address": "Poutuntie 4, 62100 Lapua",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 282,
+    "name": "Kotipizza Espoo - Kauppakeskus Entresse",
+    "address": "Valakuja 10, 02770 Espoo",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 283,
+    "name": "Kotipizza Helsinki - Keskusta Lönnrotinkatu",
+    "address": "Lönnrotinkatu 13, 00120 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-17:15",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-22:30",
+      "Saturday": "11:00-22:30",
+      "Sunday": "11:00-21:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 284,
+    "name": "Kotipizza Vantaa - Koivukylä K-Citymarket",
+    "address": "Ojalehdonkuja 1, 01400 Vantaa",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:30-20:30",
+      "Sunday": "12:00-19:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 286,
+    "name": "Kotipizza Helsinki - Konala",
+    "address": "Ristipellontie 25, 00390 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-00:00",
+      "Saturday": "10:30-20:30",
+      "Sunday": "11:30-19:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 289,
+    "name": "Kotipizza Helsinki - Helsinki Myllypuro",
+    "address": "Kivensilmänkuja 1, 00920 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:30-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 290,
+    "name": "Kotipizza Pori - Neste Tiilimäki",
+    "address": "Maamiehenkatu 2, 28500 Pori",
+    "openingHours": {
+      "Monday": "07:00-23:29",
+      "Tuesday": "07:00-23:29",
+      "Wednesday": "07:00-23:29",
+      "Thursday": "07:00-23:29",
+      "Friday": "07:00-23:29",
+      "Saturday": "00:01-23:29",
+      "Sunday": "00:01-23:29"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 291,
+    "name": "Kotipizza Iisalmi - Eteläntie 4",
+    "address": "Eteläntie 4, 74130 Iisalmi",
+    "openingHours": {
+      "Monday": "07:00-17:30",
+      "Tuesday": "07:00-17:30",
+      "Wednesday": "07:00-17:30",
+      "Thursday": "07:00-17:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "09:00-17:30",
+      "Sunday": "00:00-00:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 293,
+    "name": "Kotipizza Valkeakoski - Keskusta",
+    "address": "Hakalantie 1, 37600 Valkeakoski",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 294,
+    "name": "Kotipizza Hyvinkää - Keskusta, Uudenmaankatu",
+    "address": "Uudenmaankatu 32-34, 05800 Hyvinkää",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-15:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 295,
+    "name": "Kotipizza Espoo - Haukilahti",
+    "address": "Ukkohauentie 10, 02170 Espoo",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "12:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 296,
+    "name": "Kotipizza Jämsä - K-Citymarket",
+    "address": "Keskuskatu 23, 42100 Jämsä",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-17:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 297,
+    "name": "Kotipizza Vantaa - Korso",
+    "address": "Maakotkantie 6, 01450 Vantaa",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "12:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 298,
+    "name": "Kotipizza Espoo - Kivenlahti",
+    "address": "Merivirta 9, 02320 Espoo",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "12:00-21:30",
+      "Sunday": "12:00-21:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 299,
+    "name": "Kotipizza Helsinki - Herttoniemi",
+    "address": "Kaivolahdenkatu 8 B, 00810 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 300,
+    "name": "Kotipizza Vantaa - Tikkurila",
+    "address": "Talvikkitie 37, 01300 Vantaa",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 301,
+    "name": "Kotipizza Klaukkala",
+    "address": "Myllärintie 4, 01800 Klaukkala",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-18:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 302,
+    "name": "Kotipizza Tampere - Tammela",
+    "address": "Kullervonkatu 9, 33100 Tampere",
+    "openingHours": {
+      "Monday": "07:00-22:30",
+      "Tuesday": "07:00-22:30",
+      "Wednesday": "07:00-22:30",
+      "Thursday": "07:00-22:30",
+      "Friday": "07:00-22:30",
+      "Saturday": "11:00-22:30",
+      "Sunday": "12:00-22:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 303,
+    "name": "Kotipizza Tampere - Hervanta Kauppakeskus Duo",
+    "address": "Pietilänkatu 2, 33720 Tampere",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 304,
+    "name": "Kotipizza Hattula - Parola S-Market",
+    "address": "Kinnalantie 4, 13720 Parola",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 305,
+    "name": "Kotipizza Kokkola, Keskusta Minimani",
+    "address": "Tehtaankatu 43, 67100 Kokkola",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 306,
+    "name": "Kotipizza Muurame",
+    "address": "Setäläntie 2, 40950 Muurame",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:30-20:30",
+      "Sunday": "12:00-19:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 307,
+    "name": "Kotipizza Sastamala - K-Citymarket",
+    "address": "Itsenäisyydenkatu 66, 38200 Sastamala",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 332,
+    "name": "Kotipizza Tuusula - Hyrylä, Nahkurintien Liiketalo",
+    "address": "Nahkurintien Liiketalo, 04300 Tuusula",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 335,
+    "name": "Kotipizza Tuuri",
+    "address": "Onnentie 4-6, 63610 Töysä",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 336,
+    "name": "Kotipizza Seinäjoki - Keskusta Puskantie",
+    "address": "Puskantie 13, 60100 Seinäjoki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 337,
+    "name": "Kotipizza Imatra - K-Citymarket",
+    "address": "Tietäjänkatu 2, 55120 Imatra",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-19:30",
+      "Sunday": "12:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 338,
+    "name": "Kotipizza Vaasa - Keskusta Prisma",
+    "address": "Jukolantie 1, 65300 Vaasa",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 339,
+    "name": "Kotipizza Hämeelinna - K-Citymarket Tiiriö",
+    "address": "Katsastusmiehentie 6, 13130 Hämeenlinna",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-19:30",
+      "Sunday": "12:00-17:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 340,
+    "name": "Kotipizza Oulu - Keskusta Torikatu",
+    "address": "Torikatu 18, 90100 Oulu",
+    "openingHours": {
+      "Monday": "07:00-00:00",
+      "Tuesday": "07:00-00:00",
+      "Wednesday": "07:00-00:00",
+      "Thursday": "07:00-00:00",
+      "Friday": "07:00-00:00",
+      "Saturday": "00:01-00:00",
+      "Sunday": "00:01-00:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 341,
+    "name": "Kotipizza Jyväskylä - Keskusta Forum",
+    "address": "Asemakatu 5, 40100 Jyväskylä",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "07:00-21:30",
+      "Sunday": "07:00-19:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 342,
+    "name": "Kotipizza Vantaa - Myyrmanni Kauppakeskus Myyrmanni",
+    "address": "Iskoskuja 3 A 1,  (2.krs.), 01600 Vantaa",
+    "openingHours": {
+      "Monday": "07:00-20:15",
+      "Tuesday": "07:00-20:15",
+      "Wednesday": "07:00-20:15",
+      "Thursday": "07:00-20:15",
+      "Friday": "07:00-20:15",
+      "Saturday": "10:30-20:15",
+      "Sunday": "11:00-20:15"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 343,
+    "name": "Kotipizza Lohja - Keskusta Kauppakatu",
+    "address": "Kauppakatu 10 - 12, 08100 Lohja",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "10:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 344,
+    "name": "Kotipizza Nokia - K-Citymarket",
+    "address": "Nuijamiestentie 5, 37100 Nokia",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-19:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 345,
+    "name": "Kotipizza Kerava - Keskusta",
+    "address": "Kauppakaari 6, 04200 Kerava",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "10:30-21:30",
+      "Sunday": "11:30-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 346,
+    "name": "Kotipizza Helsinki - Arabia Kauppakeskus Arabia",
+    "address": "Hämeentie 109-111, 00550 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "00:00-00:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 347,
+    "name": "Kotipizza Pori - Kauppakeskus Puuvilla",
+    "address": "Siltapuistokatu 14, 28100 Pori",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "10:30-18:30",
+      "Sunday": "11:00-18:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 348,
+    "name": "Kotipizza Lahti - Keskusta Kauppakeskus Trio",
+    "address": "Aleksanterinkatu 20, 15140 Lahti",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:30-20:30",
+      "Sunday": "12:00-19:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 349,
+    "name": "Kotipizza Hämeenkyrö",
+    "address": "Härkikuja 2, 39100 Hämeenkyrö",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 350,
+    "name": "Kotipizza Espoo - ST1 Mankki",
+    "address": "Lapinkyläntie 5, 02780 Espoo",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:00-19:30",
+      "Sunday": "10:00-18:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 351,
+    "name": "Kotipizza Kuusamo - Keskusta",
+    "address": "Kitkantie 9, 93600 Kuusamo",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "11:00-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 352,
+    "name": "Kotipizza Kankaanpää",
+    "address": "Keskuskatu 38, 38700 Kankaanpää",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:30-20:30",
+      "Sunday": "00:00-00:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 353,
+    "name": "Kotipizza Haapajärvi - ABC Haapajärvi",
+    "address": "Puistokatu 40, 85800 Haapajärvi",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "10:00-21:30",
+      "Sunday": "10:00-21:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 354,
+    "name": "Kotipizza Kyyjärvi - Ostoskeskus Paletti",
+    "address": "Vaasantie 2, 43700 Kyyjärvi",
+    "openingHours": {
+      "Monday": "07:00-18:30",
+      "Tuesday": "07:00-18:30",
+      "Wednesday": "07:00-18:30",
+      "Thursday": "07:00-18:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "09:00-17:30",
+      "Sunday": "11:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 355,
+    "name": "Kotipizza Hämeenlinna - Tuulos",
+    "address": "Tuulosentie 1, 14810 Tuulos",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 356,
+    "name": "Kotipizza Keminmaa - Neste Keminmaa",
+    "address": "Teollisuuskyläntie, 94450 Keminmaa",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:00-20:30",
+      "Sunday": "10:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 357,
+    "name": "Kotipizza Leppävirta - Kalmalahdentie 2",
+    "address": "Kalmalahdentie 2, 79100 Leppävirta",
+    "openingHours": {
+      "Monday": "07:00-17:30",
+      "Tuesday": "07:00-17:30",
+      "Wednesday": "07:00-17:30",
+      "Thursday": "07:00-17:30",
+      "Friday": "07:00-17:30",
+      "Saturday": "10:00-17:30",
+      "Sunday": "10:00-15:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 359,
+    "name": "Kotipizza Jyväskylä - Palokka, Saarijärventie 50-52",
+    "address": "Saarijärventie 50-52, 40270 Jyväskylä",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "10:30-17:30",
+      "Sunday": "00:00-00:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 360,
+    "name": "Kotipizza Helsinki - Kalasatama | eComm testitoimipiste",
+    "address": "Hermannin rantatie 2, 00580 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-20:00",
+      "Friday": "07:00-20:00",
+      "Saturday": "00:00-00:00",
+      "Sunday": "00:00-00:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 361,
+    "name": "Kotipizza Sodankylä - SEO Rovaniementie",
+    "address": "Rovaniementie 3, 99600 Sodankylä",
+    "openingHours": {
+      "Monday": "07:00-18:30",
+      "Tuesday": "07:00-18:30",
+      "Wednesday": "07:00-18:30",
+      "Thursday": "07:00-18:30",
+      "Friday": "07:00-18:30",
+      "Saturday": "10:30-18:30",
+      "Sunday": "10:30-18:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 362,
+    "name": "Kotipizza Riihimäki - HopLop, Voimalankatu 6",
+    "address": "Voimalankatu 6, 11100 Riihimäki",
+    "openingHours": {
+      "Monday": "07:00-19:00",
+      "Tuesday": "07:00-19:00",
+      "Wednesday": "07:00-19:00",
+      "Thursday": "07:00-19:00",
+      "Friday": "07:00-19:00",
+      "Saturday": "10:30-19:00",
+      "Sunday": "10:30-19:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 363,
+    "name": "Kotipizza Pihtipudas - Neste Harjukatu",
+    "address": "Harjukatu 2, 44800 Pihtipudas",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-20:00",
+      "Friday": "07:00-20:00",
+      "Saturday": "11:00-20:00",
+      "Sunday": "11:00-20:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 364,
+    "name": "Kotipizza Helsinki - Neste Metsälä",
+    "address": "Asesepänkuja 2, 00620 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-23:29",
+      "Tuesday": "07:00-23:29",
+      "Wednesday": "07:00-23:29",
+      "Thursday": "07:00-23:29",
+      "Friday": "07:00-23:29",
+      "Saturday": "10:00-23:29",
+      "Sunday": "10:00-23:29"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 365,
+    "name": "Kotipizza Turku - Neste Satakunnantie",
+    "address": "Satakunnantie 191, 20300 Turku",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "10:30-21:30",
+      "Sunday": "10:30-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 366,
+    "name": "Kotipizza Tervola - Neste Tervola",
+    "address": "Puukivillantie 3-4, 95300 Tervola",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 367,
+    "name": "Kotipizza Vantaa - Neste Varisto",
+    "address": "Ulkoniitynkuja 2, 01660 Vantaa",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "12:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 368,
+    "name": "Kotipizza Vähäkyrö - Neste Tervajoki",
+    "address": "Tervajoentie 51, 66440 Tervajoki",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-20:00",
+      "Friday": "07:00-20:00",
+      "Saturday": "11:00-20:00",
+      "Sunday": "11:00-20:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 369,
+    "name": "Kotipizza Kempele - Neste Ouluntulli",
+    "address": "Pohjantie 1364, 90450 Kempele",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "10:30-21:30",
+      "Sunday": "10:30-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 370,
+    "name": "Kotipizza Turku - Mustionkatu 2",
+    "address": "Mustionkatu 2, 20750 Turku",
+    "openingHours": {
+      "Monday": "07:00-19:00",
+      "Tuesday": "07:00-19:00",
+      "Wednesday": "07:00-19:00",
+      "Thursday": "07:00-19:00",
+      "Friday": "07:00-19:00",
+      "Saturday": "11:00-17:00",
+      "Sunday": "12:00-17:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 371,
+    "name": "Kotipizza Kittilä - Neste Kittilä",
+    "address": "Valtatie 1, 99100 Kittilä",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "11:00-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 372,
+    "name": "Kotipizza Kärkölä - Neste Kärkölä",
+    "address": "Peltotie 2, 16600 Järvelä",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 373,
+    "name": "Kotipizza Rovaniemi - Alakorkalantie 22 (Neste)",
+    "address": "Alakorkalantie 22, 96300 Rovaniemi",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "10:30-21:30",
+      "Sunday": "10:30-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 374,
+    "name": "Kotipizza Jalasjärvi - Seinäjoentie 7 (Neste)",
+    "address": "Seinäjoentie 7, 61600 Jalasjärvi",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:00-20:30",
+      "Sunday": "10:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 375,
+    "name": "Kotipizza Lahti - Merrasjärvenkatu 1 (Neste)",
+    "address": "Merrasjärvenkatu 1, 15240 Lahti",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:30-20:30",
+      "Sunday": "10:30-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 376,
+    "name": "Kotipizza Pudasjärvi - Neste Pudasjärvi",
+    "address": "Pietarilantie 46, 93100 Pudasjärvi",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 377,
+    "name": "Kotipizza Pietarsaari - Neste Permonkaarre",
+    "address": "Permonkaarre 127, 68600 Pietarsaari",
+    "openingHours": {
+      "Monday": "07:00-20:15",
+      "Tuesday": "07:00-20:15",
+      "Wednesday": "07:00-20:15",
+      "Thursday": "07:00-20:15",
+      "Friday": "07:00-20:15",
+      "Saturday": "10:00-20:15",
+      "Sunday": "12:00-20:15"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 378,
+    "name": "Kotipizza Kylmäkoski - Neste Kylmäkoski",
+    "address": "Tampereenväylä 1005, 37910 Kylmäkoski",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "11:00-19:30",
+      "Sunday": "11:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 379,
+    "name": "Kotipizza Paltamo - Neste Paltamo",
+    "address": "Sairaalatie 1, 88300 Paltamo",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-20:00",
+      "Friday": "07:00-20:00",
+      "Saturday": "10:00-20:00",
+      "Sunday": "10:30-20:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 380,
+    "name": "Kotipizza Alajärvi - Neste Alajärvi",
+    "address": "Teollisuustie 1, 62900 Alajärvi",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:00-20:30",
+      "Sunday": "10:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 381,
+    "name": "Kotipizza Seinäjoki - Alavudentie 10 (Neste)",
+    "address": "Alavudentie 10, 61100 Peräseinäjoki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "09:00-20:30",
+      "Sunday": "09:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 382,
+    "name": "Kotipizza Heinävesi - Kermantie 3 (Neste)",
+    "address": "Kermantie 3, 79700 Heinävesi",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "11:00-19:30",
+      "Sunday": "11:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 383,
+    "name": "Kotipizza Vierumäki - Neste Vierumäen Matkakeidas",
+    "address": "Tervalammentie 1, 19110 Vierumäki",
+    "openingHours": {
+      "Monday": "07:00-22:30",
+      "Tuesday": "07:00-22:30",
+      "Wednesday": "07:00-22:30",
+      "Thursday": "07:00-22:30",
+      "Friday": "07:00-22:30",
+      "Saturday": "10:00-22:30",
+      "Sunday": "10:00-22:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 384,
+    "name": "Kotipizza Joroinen - Neste Joroinen",
+    "address": "Joroistentie 5, 79600 Joroinen",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "11:00-19:30",
+      "Sunday": "11:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 385,
+    "name": "Kotipizza Ahmovaara - Neste Kolinportti",
+    "address": "Kolintie 10, 83950 Ahmovaara",
+    "openingHours": {
+      "Monday": "07:00-19:00",
+      "Tuesday": "07:00-19:00",
+      "Wednesday": "07:00-19:00",
+      "Thursday": "07:00-19:00",
+      "Friday": "07:00-19:00",
+      "Saturday": "11:00-19:00",
+      "Sunday": "11:00-19:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 386,
+    "name": "Kotipizza Kuopio -  Naulakatu 2 (Neste)",
+    "address": "Naulakatu 2, 70800 Kuopio",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "10:30-21:30",
+      "Sunday": "10:30-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 387,
+    "name": "Kotipizza Läyliäinen - Läyliäistenraitti 116 (Neste)",
+    "address": "Läyliäistenraitti 116, 12600 Läyliäinen",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "07:00-19:30",
+      "Sunday": "09:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 388,
+    "name": "Kotipizza Nastola -  Kauppakaari 1 (Neste)",
+    "address": "Kauppakaari 1, 15560 Nastola",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-20:00",
+      "Friday": "07:00-20:00",
+      "Saturday": "11:00-20:00",
+      "Sunday": "11:00-20:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 389,
+    "name": "Kotipizza Hoisko - Kyyjärventie 402 (Neste)",
+    "address": "Kyyjärventie 402, 62940 Hoisko",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-20:00",
+      "Friday": "07:00-20:00",
+      "Saturday": "10:00-20:00",
+      "Sunday": "10:00-20:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 390,
+    "name": "Kotipizza Räihä - Neste Lintulahti",
+    "address": "Ouluntie 2680, 44440 Räihä",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "11:00-19:30",
+      "Sunday": "11:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 391,
+    "name": "Kotipizza Posio - Neste Posio",
+    "address": "Uimaniementie 7, 97900 Posio",
+    "openingHours": {
+      "Monday": "07:00-19:00",
+      "Tuesday": "07:00-19:00",
+      "Wednesday": "07:00-19:00",
+      "Thursday": "07:00-19:00",
+      "Friday": "07:00-19:00",
+      "Saturday": "10:00-17:30",
+      "Sunday": "10:00-15:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 392,
+    "name": "Kotipizza Sukeva - Neste Sukeva",
+    "address": "Sukevantie 2, 74340 Sukeva",
+    "openingHours": {
+      "Monday": "07:00-19:00",
+      "Tuesday": "07:00-19:00",
+      "Wednesday": "07:00-19:00",
+      "Thursday": "07:00-19:00",
+      "Friday": "07:00-19:00",
+      "Saturday": "11:00-19:00",
+      "Sunday": "11:00-19:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 393,
+    "name": "Kotipizza Jämsä - Neste Jämsänkoski",
+    "address": "Koskenväylä 2, 42300 Jämsänkoski",
+    "openingHours": {
+      "Monday": "07:00-20:15",
+      "Tuesday": "07:00-20:15",
+      "Wednesday": "07:00-20:15",
+      "Thursday": "07:00-20:15",
+      "Friday": "07:00-20:15",
+      "Saturday": "11:00-19:15",
+      "Sunday": "12:00-19:15"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 394,
+    "name": "Kotipizza Joutseno - SEO Joutseno",
+    "address": "Asemansuora 2, 54100 Joutseno",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-20:00",
+      "Friday": "07:00-20:00",
+      "Saturday": "11:00-17:00",
+      "Sunday": "12:00-20:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 395,
+    "name": "Kotipizza Revonlahti - Kasitie 540 (Neste)",
+    "address": "Kasitie 540, 92359 Revonlahti",
+    "openingHours": {
+      "Monday": "07:00-22:30",
+      "Tuesday": "07:00-22:30",
+      "Wednesday": "07:00-22:30",
+      "Thursday": "07:00-22:30",
+      "Friday": "07:00-22:30",
+      "Saturday": "09:00-22:30",
+      "Sunday": "09:00-22:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 396,
+    "name": "Kotipizza Kristiinankaupunki - Lapväärtintie 2 (Neste)",
+    "address": "Lapväärtintie 2, 64100 Kristiinankaupunki",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "11:00-17:30",
+      "Sunday": "00:00-00:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 397,
+    "name": "Kotipizza Ikaalinen - Ikaalisten sisääntulotie (Neste)",
+    "address": "Ikaalisten sisääntulotie 2, 39500 Ikaalinen",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 398,
+    "name": "Kotipizza Iitti - Neste Kausala",
+    "address": "Sitikkalantie 5, 47400 Kausala",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "11:00-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 399,
+    "name": "Kotipizza Oulu - Neste Hiironen",
+    "address": "Kiilakivenkuja 2, 90250 Oulu",
+    "openingHours": {
+      "Monday": "07:00-20:15",
+      "Tuesday": "07:00-20:15",
+      "Wednesday": "07:00-20:15",
+      "Thursday": "07:00-20:15",
+      "Friday": "07:00-20:15",
+      "Saturday": "10:30-20:15",
+      "Sunday": "10:30-20:15"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 400,
+    "name": "Kotipizza Kuhmo - Neste Kuhmo",
+    "address": "Kainuuntie 129, 88900 Kuhmo",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 401,
+    "name": "Kotipizza Pedersöre - Motellitie 2 (Neste)",
+    "address": "Motellitie 2, 68870 Edsevö",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "10:00-21:30",
+      "Sunday": "10:00-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 402,
+    "name": "Kotipizza Kälviä - ST1 Kaffeli Kälviä",
+    "address": "Kälviänkatu 16, 68300 Kälviä",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "10:00-21:30",
+      "Sunday": "10:00-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 403,
+    "name": "Kotipizza Ähtäri - Autopirtti Ähtäri",
+    "address": "Miilutie 2, 63700 Ähtäri",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 404,
+    "name": "Kotipizza Kitee - Neste Tolosenmäki",
+    "address": "Joensuuntie 304, 82380 Tolosenmäki",
+    "openingHours": {
+      "Monday": "07:00-23:29",
+      "Tuesday": "07:00-23:29",
+      "Wednesday": "07:00-23:29",
+      "Thursday": "07:00-23:29",
+      "Friday": "07:00-23:29",
+      "Saturday": "00:01-22:15",
+      "Sunday": "08:00-23:29"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 405,
+    "name": "Kotipizza Ristiina - Neste Ristiina",
+    "address": "Kouvolantie 5-7, 52420 Pellosniemi",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "11:00-19:30",
+      "Sunday": "11:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 406,
+    "name": "Kotipizza Sastamala - Neste Häijää",
+    "address": "Kauppakuja 1, 38420 Sastamala",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "10:30-21:30",
+      "Sunday": "10:30-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 407,
+    "name": "Kotipizza Hartola - Neste Hartola",
+    "address": "Yhdystie 2, 19600 Hartola",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "11:00-19:30",
+      "Sunday": "11:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 408,
+    "name": "Kotipizza Hankasalmi - Neste Hankasalmi",
+    "address": "Pieksämäentie 15, 41520 Hankasalmi",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-20:00",
+      "Friday": "07:00-20:00",
+      "Saturday": "11:00-20:00",
+      "Sunday": "11:00-20:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 409,
+    "name": "Kotipizza Kuortane - Neste Kuortane",
+    "address": "Seinäjoentie 10, 63130 Mäyry",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-20:00",
+      "Friday": "07:00-20:00",
+      "Saturday": "11:00-20:00",
+      "Sunday": "11:00-20:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 410,
+    "name": "Kotipizza Pieksämäki - Neste Pieksämäki",
+    "address": "Kaakinmäenkatu 16-20, 76100 Pieksämäki",
+    "openingHours": {
+      "Monday": "07:00-18:30",
+      "Tuesday": "07:00-18:30",
+      "Wednesday": "07:00-18:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 411,
+    "name": "Kotipizza Nivala - Neste Nivala",
+    "address": "Urheilutie 2, 85500 Nivala",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "10:00-21:30",
+      "Sunday": "10:00-21:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 412,
+    "name": "Kotipizza Oulu - SEO Kaarnatie",
+    "address": "Kaarnatie 30, 90530 Oulu",
+    "openingHours": {
+      "Monday": "07:00-17:00",
+      "Tuesday": "07:00-17:00",
+      "Wednesday": "07:00-17:00",
+      "Thursday": "07:00-17:00",
+      "Friday": "07:00-17:00",
+      "Saturday": "10:00-16:00",
+      "Sunday": "11:30-17:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 414,
+    "name": "Kotipizza Joensuu - Sortavalankatu 2 (Neste)",
+    "address": "Sortavalankatu 2, 80100 Joensuu",
+    "openingHours": {
+      "Monday": "07:00-19:45",
+      "Tuesday": "07:00-19:45",
+      "Wednesday": "07:00-19:45",
+      "Thursday": "07:00-19:45",
+      "Friday": "07:00-19:45",
+      "Saturday": "10:00-19:15",
+      "Sunday": "13:00-20:15"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 415,
+    "name": "Kotipizza Otalampi - Neste Siippoo",
+    "address": "Vanha Porintie 1371, 03300 Otalampi",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-20:00",
+      "Friday": "07:00-20:00",
+      "Saturday": "11:00-20:00",
+      "Sunday": "11:00-20:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 416,
+    "name": "Kotipizza Lahti - Neste Karisto",
+    "address": "Kauppiaankatu 1, 15150 Lahti",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-18:00",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 417,
+    "name": "Kotipizza Tornio - Neste Tornio",
+    "address": "Röyttäntie 1, 95420 Tornio",
+    "openingHours": {
+      "Monday": "07:00-20:15",
+      "Tuesday": "07:00-20:15",
+      "Wednesday": "07:00-20:15",
+      "Thursday": "07:00-20:15",
+      "Friday": "07:00-20:15",
+      "Saturday": "10:30-20:15",
+      "Sunday": "10:30-20:15"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 418,
+    "name": "Kotipizza Loviisa - Neste Loviisa",
+    "address": "Länsikaari 3, 07900 Loviisa",
+    "openingHours": {
+      "Monday": "07:00-19:15",
+      "Tuesday": "07:00-19:15",
+      "Wednesday": "07:00-19:15",
+      "Thursday": "07:00-19:15",
+      "Friday": "07:00-19:15",
+      "Saturday": "10:30-19:15",
+      "Sunday": "10:30-19:15"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 419,
+    "name": "Kotipizza Kemi - Neste Kemi",
+    "address": "Veitsiluodontie 19, 94830 Kemi",
+    "openingHours": {
+      "Monday": "07:00-22:30",
+      "Tuesday": "07:00-22:30",
+      "Wednesday": "07:00-22:30",
+      "Thursday": "07:00-22:30",
+      "Friday": "07:00-22:30",
+      "Saturday": "10:00-22:30",
+      "Sunday": "10:00-22:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 420,
+    "name": "Kotipizza Varkaus - Neste Varkaus",
+    "address": "Kiertotie 2, 78210 Varkaus",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "11:00-19:30",
+      "Sunday": "11:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 421,
+    "name": "Kotipizza Jyväskylä - Neste Kirri",
+    "address": "Kirrintie 2, 40270 Jyväskylä",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 422,
+    "name": "Kotipizza Sipoo - Neste Sipoonlahti",
+    "address": "Eriksnäsintie 131, 01150 Söderkulla",
+    "openingHours": {
+      "Monday": "07:00-21:15",
+      "Tuesday": "07:00-21:15",
+      "Wednesday": "07:00-21:15",
+      "Thursday": "07:00-21:15",
+      "Friday": "07:00-21:15",
+      "Saturday": "10:30-21:15",
+      "Sunday": "10:30-21:15"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 423,
+    "name": "Kotipizza Vantaa - Neste Kehä III",
+    "address": "Niittytie 2, 01510 Vantaa",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 424,
+    "name": "Kotipizza Nurmijärvi - ST1 Myllykukko Nurmijärvi",
+    "address": "Ilvesvuorenkatu 2, 01900 Nurmijärvi",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "10:00-21:30",
+      "Sunday": "10:00-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 425,
+    "name": "Kotipizza Siilinjärvi - ST1 Siilinjärvi",
+    "address": "Ranta-Toivalantie 1, 70900 Siilinjärvi",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 426,
+    "name": "Kotipizza Luvia - ST1 Luvia",
+    "address": "Yhdystie 43, 29100 Luvia",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 427,
+    "name": "Kotipizza Loimaa - ST1 Loimaa",
+    "address": "Kartanonmäenkatu 2, 32200 Loimaa",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "11:00-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 428,
+    "name": "Kotipizza Liperi - ST1 Liperi",
+    "address": "Kuusikkolantie 1, 83100 Liperi",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "10:00-15:30",
+      "Sunday": "10:00-15:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 429,
+    "name": "Kotipizza Mikkeli - ST1 Rantakyläntie",
+    "address": "Rantakyläntie 2, 50600 Mikkeli",
+    "openingHours": {
+      "Monday": "07:00-19:20",
+      "Tuesday": "07:00-19:20",
+      "Wednesday": "07:00-19:20",
+      "Thursday": "07:00-19:20",
+      "Friday": "07:00-19:20",
+      "Saturday": "11:00-19:20",
+      "Sunday": "11:00-19:20"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 430,
+    "name": "Kotipizza Evijärvi - ST1 Evijärvi",
+    "address": "Kaustisentie 1, 62500 Evijärvi",
+    "openingHours": {
+      "Monday": "07:00-21:00",
+      "Tuesday": "07:00-21:00",
+      "Wednesday": "07:00-21:00",
+      "Thursday": "07:00-21:00",
+      "Friday": "07:00-21:00",
+      "Saturday": "10:30-21:00",
+      "Sunday": "11:00-21:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 431,
+    "name": "Kotipizza Lieksa - ST1 Lieksa",
+    "address": "Mönninkatu 30, 81700 Lieksa",
+    "openingHours": {
+      "Monday": "07:00-19:00",
+      "Tuesday": "07:00-19:00",
+      "Wednesday": "07:00-19:00",
+      "Thursday": "07:00-19:00",
+      "Friday": "07:00-19:00",
+      "Saturday": "07:00-19:00",
+      "Sunday": "09:00-17:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 432,
+    "name": "Kotipizza Vantaa - Shell Vaarala",
+    "address": "Kuussillantie 19, 01230 Vantaa",
+    "openingHours": {
+      "Monday": "07:00-20:00",
+      "Tuesday": "07:00-20:00",
+      "Wednesday": "07:00-20:00",
+      "Thursday": "07:00-20:00",
+      "Friday": "07:00-20:00",
+      "Saturday": "10:30-20:00",
+      "Sunday": "10:30-20:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 433,
+    "name": "Kotipizza Helsinki - Teboil Munkkivuori",
+    "address": "Huopalahdentie 22, 00350 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 434,
+    "name": "Kotipizza Oulu - Teboil Kaukavainio",
+    "address": "Kultatie 1, 90250 Oulu",
+    "openingHours": {
+      "Monday": "07:00-22:30",
+      "Tuesday": "07:00-22:30",
+      "Wednesday": "07:00-22:30",
+      "Thursday": "07:00-22:30",
+      "Friday": "07:00-22:30",
+      "Saturday": "11:00-22:30",
+      "Sunday": "11:00-22:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 435,
+    "name": "Kotipizza Siilinjärvi - Teboil Siilinjärvi",
+    "address": "Itkolantie 1, 70910 Siilinjärvi",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "11:00-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 437,
+    "name": "Kotipizza Heinola  - Juornatpolku 41 (Teboil)",
+    "address": "Juornatpolku 41, 18100 Heinola",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "08:00-20:30",
+      "Sunday": "08:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 438,
+    "name": "Kotipizza Vantaa - Teboil Tammisto",
+    "address": "Tammiston kauppatie 10 B, 01510 Vantaa",
+    "openingHours": {
+      "Monday": "07:00-23:29",
+      "Tuesday": "07:00-23:29",
+      "Wednesday": "07:00-23:29",
+      "Thursday": "07:00-23:29",
+      "Friday": "07:00-23:29",
+      "Saturday": "00:00-23:29",
+      "Sunday": "00:00-23:29"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 439,
+    "name": "Kotipizza Ylöjärvi - Kuusistontie 2 (Teboil)",
+    "address": "Kuusistontie 2, 33480 Ylöjärvi",
+    "openingHours": {
+      "Monday": "07:00-20:15",
+      "Tuesday": "07:00-20:15",
+      "Wednesday": "07:00-20:15",
+      "Thursday": "07:00-20:15",
+      "Friday": "07:00-20:15",
+      "Saturday": "11:00-20:15",
+      "Sunday": "12:00-20:15"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 440,
+    "name": "Kotipizza Kuopio - Teboil Kuopio Rastaantie",
+    "address": "Rastaantie 1, 70340 Kuopio",
+    "openingHours": {
+      "Monday": "07:00-21:00",
+      "Tuesday": "07:00-21:00",
+      "Wednesday": "07:00-21:00",
+      "Thursday": "07:00-21:00",
+      "Friday": "07:00-21:00",
+      "Saturday": "10:30-21:00",
+      "Sunday": "10:30-21:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 441,
+    "name": "Kotipizza Kangasniemi - Teboil Kangasniemi",
+    "address": "Kiviniementie 2, 51200 Kangasniemi",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "09:00-20:30",
+      "Sunday": "09:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 442,
+    "name": "Kotipizza Leppävirta - Teboil Leppävirta",
+    "address": "Leppävirrantie 45, 79100 Leppävirta",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 443,
+    "name": "Kotipizza Tampere - Teboil Aitolahti",
+    "address": "Kaitavedentie 95, 33680 Tampere",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 444,
+    "name": "Kotipizza Pori - Teboil Yyteri",
+    "address": "Mäntyluodontie 1470, 28800 Pori",
+    "openingHours": {
+      "Monday": "07:00-21:15",
+      "Tuesday": "07:00-21:15",
+      "Wednesday": "07:00-21:15",
+      "Thursday": "07:00-21:15",
+      "Friday": "07:00-21:15",
+      "Saturday": "10:30-21:15",
+      "Sunday": "10:30-21:15"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 445,
+    "name": "Kotipizza Nokia - Teboil Pinsiöntie",
+    "address": "Pinsiöntie 1, 37100 Nokia",
+    "openingHours": {
+      "Monday": "07:00-18:30",
+      "Tuesday": "07:00-18:30",
+      "Wednesday": "07:00-18:30",
+      "Thursday": "07:00-18:30",
+      "Friday": "07:00-18:30",
+      "Saturday": "12:00-18:30",
+      "Sunday": "12:00-18:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 446,
+    "name": "Kotipizza Paimio - Teboil Paimio",
+    "address": "Sauvontie 9, 21510 Hevonpää",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-19:30",
+      "Sunday": "11:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 448,
+    "name": "Kotipizza Peura - Nelostie 3079 b ",
+    "address": "Nelostie 3079 b, 95350 Peura",
+    "openingHours": {
+      "Monday": "07:00-19:30",
+      "Tuesday": "07:00-19:30",
+      "Wednesday": "07:00-19:30",
+      "Thursday": "07:00-19:30",
+      "Friday": "07:00-19:30",
+      "Saturday": "10:00-19:30",
+      "Sunday": "10:00-19:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 449,
+    "name": "Koitpizza - Oulaistenkatu 19, Oulainen (Teboil)",
+    "address": "Oulaistenkatu 19, 86300 Oulainen",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "09:00-20:30",
+      "Sunday": "09:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 450,
+    "name": "Kotipizza Varkaus - Teboil Käpykangas",
+    "address": "Käpykankaantie 10, 78850 Varkaus",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 451,
+    "name": "Kotipizza Tampere  - Sammonkatu 42 (Teboil)",
+    "address": "Sammonkatu 42, 33540 Tampere",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "12:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 453,
+    "name": "Kotipizza Kaustinen  - Terveystie 2 (Teboil)",
+    "address": "Terveystie 2, 69600 Kaustinen",
+    "openingHours": {
+      "Monday": "07:00-21:30",
+      "Tuesday": "07:00-21:30",
+      "Wednesday": "07:00-21:30",
+      "Thursday": "07:00-21:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "07:00-21:30",
+      "Sunday": "08:00-21:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 454,
+    "name": "Kotipizza Käsämä - Teboil Käsämä",
+    "address": "Käsämäntie 1, 83430 Käsämä",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "10:30-20:30",
+      "Sunday": "10:30-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 455,
+    "name": "Kotipizza Espoo - Niittykumpu",
+    "address": "Merituulentie 36, 02200 Espoo",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "12:00-18:30",
+      "Sunday": "12:00-18:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 478,
+    "name": "Kotipizza Naantali - Alppilankatu 2",
+    "address": "Alppilankatu 2, 21200 Naantali",
+    "openingHours": {
+      "Monday": "07:00-00:00",
+      "Tuesday": "07:00-00:00",
+      "Wednesday": "07:00-00:00",
+      "Thursday": "07:00-00:00",
+      "Friday": "07:00-00:00",
+      "Saturday": "00:00-00:00",
+      "Sunday": "00:00-00:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 479,
+    "name": "Kotipizza Helsinki - Käpylänkuja 5",
+    "address": "Käpylänkuja 5, 00610 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 480,
+    "name": "Kotipizza Helsinki - Easton, Gotlanninkatu 11-13",
+    "address": "Gotlanninkatu 11-13, 00930 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-21:00",
+      "Tuesday": "07:00-21:00",
+      "Wednesday": "07:00-21:00",
+      "Thursday": "07:00-21:00",
+      "Friday": "07:00-21:00",
+      "Saturday": "11:00-21:00",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 481,
+    "name": "Kotipizza Espoo - Suurpelto, Kynäkatu 6",
+    "address": "Kynäkatu 6, 02250 Espoo",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 482,
+    "name": "Kotipizza Tampere - Kaleva, Sammonkatu 66",
+    "address": "Sammonkatu 66, 33540 Tampere",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 483,
+    "name": "Kotipizza Tampere - Amurinportti",
+    "address": "Mustalahdenkatu 20, 33210 Tampere",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 484,
+    "name": "Kotipizza Maunula - Männikkötie 4-6",
+    "address": "Männikkötie 4-6, 00630 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 485,
+    "name": "Kotipizza Lahti - Maili",
+    "address": "Ajokatu 55, 15500 Lahti",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 486,
+    "name": "Kotipizza Prisma Palokka",
+    "address": "Palokanorsi 1, 40270 Palokka",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 487,
+    "name": "Kotipizza Hakunila - Laukkarinne 6",
+    "address": "Laukkarinne 6, 01200 Vantaa",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 488,
+    "name": "Kotipizza Raahe - Kauppakatu 46",
+    "address": "Kauppakatu 46, 92100 Raahe",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 489,
+    "name": "Kotipizza Espoo - Iso Omena",
+    "address": "Piispansilta 11, 02230 Espoo",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 490,
+    "name": "Kotipizza Kiiminki - Terveystie 6",
+    "address": "Terveystie 6, 90900 Kiiminki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-20:30",
+      "Saturday": "11:00-20:30",
+      "Sunday": "12:00-20:30"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 491,
+    "name": "Kotipizza Helsinki - Columbus, Valkopaadentie 1",
+    "address": "Valkopaadentie 1, 00980 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-20:30",
+      "Tuesday": "07:00-20:30",
+      "Wednesday": "07:00-20:30",
+      "Thursday": "07:00-20:30",
+      "Friday": "07:00-21:30",
+      "Saturday": "11:00-21:30",
+      "Sunday": "11:00-20:30"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 505,
+    "name": "T1",
+    "address": "T1, 59871 T1",
+    "openingHours": {
+      "Monday": "07:00-00:00",
+      "Tuesday": "07:00-23:59",
+      "Wednesday": "07:00-00:00",
+      "Thursday": "07:00-00:00",
+      "Friday": "07:00-00:00",
+      "Saturday": "00:00-00:00",
+      "Sunday": "00:00-00:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 507,
+    "name": "TestRestaurant",
+    "openingHours": {
+      "Monday": "07:00-00:00",
+      "Tuesday": "07:00-00:00",
+      "Wednesday": "07:00-00:00",
+      "Thursday": "07:00-00:00",
+      "Friday": "07:00-00:00",
+      "Saturday": "00:00-00:00",
+      "Sunday": "00:00-00:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 508,
+    "name": "Kotipizza Testikassa",
+    "address": "Hermannin rantatie 2b, 00580 Helsinki",
+    "openingHours": {
+      "Monday": "07:00-23:00",
+      "Tuesday": "07:00-23:00",
+      "Wednesday": "07:00-23:00",
+      "Thursday": "07:00-23:00",
+      "Friday": "07:00-23:00",
+      "Saturday": "08:00-23:00",
+      "Sunday": "08:00-23:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 517,
+    "name": "Test with global hours",
+    "address": "Vapaudenkatu 48-50, 40100 Jyväskylä",
+    "openingHours": {
+      "Monday": "07:00-00:00",
+      "Tuesday": "07:00-00:00",
+      "Wednesday": "07:00-00:00",
+      "Thursday": "07:00-00:00",
+      "Friday": "07:00-00:00",
+      "Saturday": "00:00-00:00",
+      "Sunday": "00:00-00:00"
+    },
+    "offersDelivery": true
+  },
+  {
+    "id": 520,
+    "name": "Test with global ex dates",
+    "openingHours": {
+      "Monday": "07:00-00:00",
+      "Tuesday": "07:00-00:00",
+      "Wednesday": "07:00-00:00",
+      "Thursday": "07:00-00:00",
+      "Friday": "07:00-00:00",
+      "Saturday": "00:00-00:00",
+      "Sunday": "00:00-00:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 521,
+    "name": "Test with global ex dates",
+    "openingHours": {
+      "Monday": "07:00-00:00",
+      "Tuesday": "07:00-00:00",
+      "Wednesday": "07:00-00:00",
+      "Thursday": "07:00-00:00",
+      "Friday": "07:00-00:00",
+      "Saturday": "00:00-00:00",
+      "Sunday": "00:00-00:00"
+    },
+    "offersDelivery": false
+  },
+  {
+    "id": 526,
+    "name": "Kotipizza Replicator Test #0001",
+    "address": "Teirinkatu 6, 65350 Vaasa",
+    "openingHours": null,
+    "offersDelivery": false
+  },
+  {
+    "id": 528,
+    "name": "Kotipizza Replicator Test #0001",
+    "address": "Teirinkatu 6, 65350 Vaasa",
+    "openingHours": null,
+    "offersDelivery": false
+  }
+]
