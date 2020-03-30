@@ -8,9 +8,9 @@ http://www.mulesoft.org/schema/mule/ftp http://www.mulesoft.org/schema/mule/ftp/
 		<set-variable value="#[message.attributes.uriParams.fileName]" doc:name="Set Variable" doc:id="3e5e80a3-1be8-4bd3-8023-6f7baeaee23a" variableName="fileName"/>
 		<ftp:read doc:name="Read" doc:id="786293ea-aef1-4d0b-8b26-d751ee0ad556" config-ref="FTP_Config2" path="#['/' ++ vars.fileName as String ++ '.json']"/>
 		<error-handler>
-			<on-error-continue enableNotifications="true" logException="true" doc:name="On Error Continue" doc:id="38641541-a314-421c-a075-4e21eb935c28" type="ANY">
-				<logger level="INFO" doc:name="Logger" doc:id="c88c1fb7-196d-45f7-ab25-5e3f40ee2c43" message="#['An error occured.']"/>
-			</on-error-continue>
+			<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="8b176056-736c-465f-b0f2-3ef234e04381" type="ANY">
+				<logger level="INFO" doc:name="Logger" doc:id="040e0dc5-fb4b-4d31-bc23-e12a232cfa49" message="#['File not found ' ++ (error.description default &quot;&quot;)]"/>
+			</on-error-propagate>
 		</error-handler>
 	</flow>
 </mule>
