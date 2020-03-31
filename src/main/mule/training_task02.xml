@@ -17,7 +17,7 @@ http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/fil
 		</ee:transform>
 		<error-handler >
 			<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="abcd8e4a-c594-4d85-b0b0-ef946ba1f980" type="FTP:ILLEGAL_PATH">
-				<logger level="INFO" doc:name="Logger" doc:id="43442720-a7bb-4ccf-8c44-071223a917bf" message="#['Illegal path: ' ++ (error.description default '')]"/>
+				<logger level="INFO" doc:name="Logger" doc:id="43442720-a7bb-4ccf-8c44-071223a917bf" message="#['Illegal path:' ++ (error.description default '')]"/>
 			</on-error-propagate>
 			<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="7e1587e1-c552-44fb-96c2-359836d71d4a" type="ANY">
 				<logger level="INFO" doc:name="Logger" doc:id="0eba5d21-2717-4102-b25d-daa886c82e74" message="#['An error occured: ' ++ (error.description default '')]"/>
