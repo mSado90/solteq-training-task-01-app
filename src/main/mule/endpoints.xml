@@ -20,15 +20,21 @@ http://www.mulesoft.org/schema/mule/ftp http://www.mulesoft.org/schema/mule/ftp/
 		<flow-ref doc:name="Flow Reference" doc:id="9af394a6-a963-4291-8765-1c9d7fbcc7d4" name="training_task01Flow"/>
 	</flow>
 	<flow name="training_task02_endpoints" doc:id="a1910827-f713-4387-b597-a20a0f8969b2" >
-		<http:listener doc:name="Listener" doc:id="5f0a52c8-0654-445b-a853-b832c36eae1f" config-ref="HTTP_Listener_config1" path="/"/>
+		<http:listener doc:name="Listener" doc:id="5f0a52c8-0654-445b-a853-b832c36eae1f" config-ref="HTTP_Listener_config1" path="/">
+			<http:error-response statusCode="#[503]">
+				<http:body ><![CDATA[#[output text/plain 
+--- 
+error.description]]]></http:body>
+			</http:error-response>
+		</http:listener>
 		<flow-ref doc:name="Flow Reference" doc:id="ca16ccb1-b4e6-416c-ad11-d9a6d7508d01" name="training_task02Flow"/>
 	</flow>
 	<flow name="training_task03_endpoints" doc:id="d06f959b-dd16-4441-9953-659e0a6a5750" >
 		<http:listener doc:name="Listener" doc:id="68ab5cc5-a625-4fbd-b2fb-85e39edcb621" config-ref="HTTP_Listener_config1" path="/{fileName}">
-			<http:error-response statusCode="#[404]">
+			<http:error-response statusCode="#[503]">
 				<http:body ><![CDATA[#[output text/plain 
 --- 
-'File not found ' ++ (error.description default "") ++ ' 404']]]></http:body>
+error.description]]]></http:body>
 			</http:error-response>
 		</http:listener>
 		<flow-ref doc:name="Flow Reference" doc:id="c40ac20d-f4ee-478c-974f-512f7cf0b818" name="training_task03Flow1"/>

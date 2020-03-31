@@ -31,6 +31,10 @@ type file_list = Array<String> {"example": "[\\\"shopData_2020-03-24_14.18.json\
 
 ]]></types:shape>
     </types:type>
+    <types:type name="number" format="java">
+      <types:shape format="raml"><![CDATA[#%RAML 1.0 DataType
+type: number]]></types:shape>
+    </types:type>
   </types:catalog>
   <types:enrichment select="#75e6eef4-7a4c-4c04-85a2-12ce6c7216b2">
     <types:processor-declaration>
@@ -42,4 +46,11 @@ type file_list = Array<String> {"example": "[\\\"shopData_2020-03-24_14.18.json\
     </types:processor-declaration>
   </types:enrichment>
   <types:enrichment select="#fa0bdf6c-7cb5-4c51-b5a9-95939caea1f0"/>
+  <types:enrichment select="#5f0a52c8-0654-445b-a853-b832c36eae1f">
+    <types:operation-declaration>
+      <types:inputs>
+        <types:parameter name="statusCode" type="number"/>
+      </types:inputs>
+    </types:operation-declaration>
+  </types:enrichment>
 </types:mule>

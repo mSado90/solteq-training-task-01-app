@@ -29,10 +29,10 @@ http://www.mulesoft.org/schema/mule/ftp http://www.mulesoft.org/schema/mule/ftp/
 		<ftp:write doc:name="Write" doc:id="a73be0cd-d1c8-481b-b4ca-3aa311e33fe0" path="#['/shopData_'++ now() as String {format: &quot;YYYY-MM-dd_HH.mm&quot;} ++ '.json']" config-ref="FTP_Config2"/>
 		<error-handler>
 			<on-error-continue enableNotifications="true" logException="true" doc:name="On Error Continue" doc:id="5ee70a2c-b12b-47ef-8322-8b346151e12e" type="HTTP:NOT_FOUND">
-				<logger level="ERROR" doc:name="Logger" doc:id="798a27ef-9bd6-420e-b447-0c5e4a8bf489" message="#['HTTP request has not been precessed.']"/>
+				<logger level="ERROR" doc:name="Logger" doc:id="798a27ef-9bd6-420e-b447-0c5e4a8bf489" message="#['HTTP request has not been precessed. ' ++ (error.description default '')]"/>
 			</on-error-continue>
 			<on-error-continue enableNotifications="true" logException="true" doc:name="On Error Continue" doc:id="ee0129e4-15fa-4082-b708-6989ba597704" type="ANY">
-				<logger level="ERROR" doc:name="Logger" doc:id="d383b906-1307-4e1f-b1d5-d7d2134cf155" message="#['An error occured']"/>
+				<logger level="ERROR" doc:name="Logger" doc:id="d383b906-1307-4e1f-b1d5-d7d2134cf155" message="#['An error occured: ' ++ (error.description default '')]"/>
 			</on-error-continue>
 		</error-handler>
 	</flow>

@@ -9,7 +9,6 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd">
 	<flow name="training_task02Flow" doc:id="3e9fae8a-e678-4dab-ba0c-0a652a7df5ed" >
 		<ftp:list doc:name="List files from FTP" doc:id="a2cc0253-e75e-44b0-b3e9-82a1c87c0cba" config-ref="FTP_Config2" directoryPath="#['/']"/>
-		<logger level="INFO" doc:name="Logger" doc:id="2aee234e-0c35-4022-a8c0-0ed35197d5ff" message="#[payload]"/>
 		<ee:transform doc:name="Transform Message" doc:id="fa0bdf6c-7cb5-4c51-b5a9-95939caea1f0" >
 			<ee:message >
 				<ee:set-payload resource="mapping02.dwl" />
@@ -17,11 +16,11 @@ http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/fil
 			</ee:message>
 		</ee:transform>
 		<error-handler >
-			<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="c82c27a9-fb9e-4b96-85c4-d8a884e0751a" type="FTP:ACCESS_DENIED">
-				<logger level="INFO" doc:name="Logger" doc:id="6b831a16-143f-4f64-9331-d5756b55a962" message="#['Access denied ' ++ (error.description default &quot;&quot;)]" />
-			</on-error-propagate>
 			<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="abcd8e4a-c594-4d85-b0b0-ef946ba1f980" type="FTP:ILLEGAL_PATH">
-				<logger level="INFO" doc:name="Logger" doc:id="7ffaec69-8921-4c89-930f-e205becae09b" message="#['Illegal path ' ++ (error.description default &quot;&quot;)]" />
+				<logger level="INFO" doc:name="Logger" doc:id="43442720-a7bb-4ccf-8c44-071223a917bf" message="#['Illegal path: ' ++ (error.description default '')]"/>
+			</on-error-propagate>
+			<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="7e1587e1-c552-44fb-96c2-359836d71d4a" type="ANY">
+				<logger level="INFO" doc:name="Logger" doc:id="0eba5d21-2717-4102-b25d-daa886c82e74" message="#['An error occured: ' ++ (error.description default '')]"/>
 			</on-error-propagate>
 		</error-handler>
 	</flow>
