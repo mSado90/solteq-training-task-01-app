@@ -17,7 +17,7 @@ http://www.mulesoft.org/schema/mule/ftp http://www.mulesoft.org/schema/mule/ftp/
 	<file:config name="File_Config" doc:name="File Config" doc:id="b854dce6-1bb2-4cc6-ab05-d719ea76d23f" >
 		<file:connection workingDir="C:\Users\michal.sadecki\AnypointStudio\studio-workspace" />
 	</file:config>
-	<flow name="training_task01Flow" doc:id="f62e317b-d0a9-4c2b-928e-6e17083ea809" >
+	<flow name="t01_mainFlow" doc:id="f62e317b-d0a9-4c2b-928e-6e17083ea809" >
 		<http:request method="GET" doc:name="Request" doc:id="f7641f27-4816-490b-bbde-44611dd5c531" path="/v2/shops/" config-ref="HTTP_Request_configuration"/>
 		<ee:transform doc:name="Transform Message" doc:id="075761de-12b7-40e2-9b80-04e76f81f38d">
 			<ee:message>
