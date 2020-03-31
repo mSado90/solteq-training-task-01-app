@@ -8,7 +8,7 @@
 		http://www.mulesoft.org/schema/mule/munit http://www.mulesoft.org/schema/mule/munit/current/mule-munit.xsd
 		http://www.mulesoft.org/schema/mule/munit-tools  http://www.mulesoft.org/schema/mule/munit-tools/current/mule-munit-tools.xsd">
 	<munit:config name="training_task01-test-suite.xml" />
-	<munit:before-test name="training_task01-test-suiteBefore_Test" doc:id="06166518-2a83-46a1-8a49-f17f9d073c2d" >
+	<munit:before-test name="t01_beforeTest" doc:id="06166518-2a83-46a1-8a49-f17f9d073c2d" >
 		<munit-tools:mock-when doc:name="File Write Mock" doc:id="bf7f113a-7d54-46a3-9467-e2c32df2204b" processor="file:write">
 				<munit-tools:with-attributes>
 					<munit-tools:with-attribute whereValue="1ce9656e-838f-4675-8952-093d4e5924a7" attributeName="doc:id" />
@@ -20,7 +20,7 @@
 				</munit-tools:with-attributes>
 			</munit-tools:mock-when>
 	</munit:before-test>
-	<munit:test name="training_task01-test-suite-training_task01FlowTest" doc:id="f50d5905-b272-4d34-8c46-30a1fa5c8315" description="Test">
+	<munit:test name="t01_mainFlowTest" doc:id="f50d5905-b272-4d34-8c46-30a1fa5c8315" description="Test">
 		<munit:behavior>
 			<munit-tools:mock-when doc:name="Request Mock" doc:id="5d82b075-305f-49fc-9d7d-0c4783720533" processor="http:request">
 				<munit-tools:with-attributes >
@@ -32,7 +32,7 @@
 			</munit-tools:mock-when>
 		</munit:behavior>
 		<munit:execution >
-			<flow-ref doc:name="Flow-ref to training_task01Flow" doc:id="b98ec835-7d5d-4a2b-ad57-fb0892814ce7" name="training_task01Flow"/>
+			<flow-ref doc:name="Flow-ref to training_task01Flow" doc:id="b98ec835-7d5d-4a2b-ad57-fb0892814ce7" name="t01_mainFlow"/>
 		</munit:execution>
 		<munit:validation>
 			<munit-tools:assert doc:name="Assert expression" doc:id="5110ffd0-d4f7-4003-80b9-72b7e87154ea" >
@@ -49,7 +49,7 @@ payload must [beArray(),
 			</munit-tools:assert>
 		</munit:validation>
 	</munit:test>
-	<munit:test name="training_task01-test-suiteTest" doc:id="ed4f051c-c0e6-447b-8388-50293e106814" >
+	<munit:test name="t01-_error1Test" doc:id="ed4f051c-c0e6-447b-8388-50293e106814" >
 		<munit:behavior >
 			<munit-tools:mock-when doc:name="Mock HTTP request error" doc:id="0e8536db-27ed-4508-a34c-ea678b205393" processor="http:request">
 				<munit-tools:with-attributes>
@@ -61,7 +61,7 @@ payload must [beArray(),
 			</munit-tools:mock-when>
 		</munit:behavior>
 		<munit:execution >
-			<flow-ref doc:name="Flow Reference" doc:id="9784d2f0-1041-4719-922f-6fc2a1f1c923" name="training_task01Flow"/>
+			<flow-ref doc:name="Flow Reference" doc:id="9784d2f0-1041-4719-922f-6fc2a1f1c923" name="t01_mainFlow"/>
 		</munit:execution>
 		<munit:validation >
 			<munit-tools:verify-call doc:name="Verify call" doc:id="2b858861-4b8e-4fa3-af2f-fba96ceb5223" processor="logger" atLeast="1">
@@ -71,7 +71,7 @@ payload must [beArray(),
 			</munit-tools:verify-call>
 		</munit:validation>
 	</munit:test>
-	<munit:test name="training_task01-test-suiteTest1" doc:id="7dac2972-3658-4151-8d99-afca51c86ba5" >
+	<munit:test name="t01_error2Test" doc:id="7dac2972-3658-4151-8d99-afca51c86ba5" >
 		<munit:behavior >
 			<munit-tools:mock-when doc:name="Mock when" doc:id="3e8e7609-3f2c-4952-9a64-b9f250c1c15e" processor="http:request">
 				<munit-tools:with-attributes >
@@ -83,7 +83,7 @@ payload must [beArray(),
 			</munit-tools:mock-when>
 		</munit:behavior>
 		<munit:execution >
-			<flow-ref doc:name="Flow Reference" doc:id="a9a66e96-a697-4cfd-90b8-5241817b8b42" name="training_task01Flow"/>
+			<flow-ref doc:name="Flow Reference" doc:id="a9a66e96-a697-4cfd-90b8-5241817b8b42" name="t01_mainFlow"/>
 		</munit:execution>
 		<munit:validation >
 			<munit-tools:verify-call doc:name="Verify call" doc:id="716a6f1a-5f4a-41d6-a847-178fd8f66739" processor="logger" atLeast="1">

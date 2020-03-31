@@ -4,7 +4,7 @@
 	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/ftp http://www.mulesoft.org/schema/mule/ftp/current/mule-ftp.xsd">
-	<flow name="training_task03Flow1" doc:id="67449296-c262-44ec-ab9b-1cdd00b6bf68" >
+	<flow name="t03_mainFlow" doc:id="67449296-c262-44ec-ab9b-1cdd00b6bf68" >
 		<set-variable value="#[message.attributes.uriParams.fileName]" doc:name="Set Variable" doc:id="3e5e80a3-1be8-4bd3-8023-6f7baeaee23a" variableName="fileName"/>
 		<ftp:read doc:name="Read" doc:id="786293ea-aef1-4d0b-8b26-d751ee0ad556" config-ref="FTP_Config2" path="#['/' ++ vars.fileName as String ++ '.json']"/>
 		<error-handler>
