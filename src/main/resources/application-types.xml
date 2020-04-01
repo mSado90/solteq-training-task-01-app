@@ -45,7 +45,6 @@ type: number]]></types:shape>
       </types:input-event>
     </types:processor-declaration>
   </types:enrichment>
-  <types:enrichment select="#fa0bdf6c-7cb5-4c51-b5a9-95939caea1f0"/>
   <types:enrichment select="#5f0a52c8-0654-445b-a853-b832c36eae1f">
     <types:operation-declaration>
       <types:inputs>
@@ -53,4 +52,14 @@ type: number]]></types:shape>
       </types:inputs>
     </types:operation-declaration>
   </types:enrichment>
+  <types:enrichment select="#c2db4bca-0be3-44c7-87f9-4826982b356d">
+    <types:processor-declaration>
+      <types:input-event>
+        <types:message>
+          <types:payload type="training_data"/>
+        </types:message>
+      </types:input-event>
+    </types:processor-declaration>
+  </types:enrichment>
+  <types:enrichment select="#8758ec63-18d7-4267-b314-85f01176fb9b"/>
 </types:mule>

@@ -26,4 +26,3 @@ payloadOrdered map (item, ind) -> {
 	},
 	offersDelivery: item.hasDelivery
 }
-

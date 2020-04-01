@@ -9,10 +9,14 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd">
 	<flow name="t02_mainFlow" doc:id="3e9fae8a-e678-4dab-ba0c-0a652a7df5ed" >
 		<ftp:list doc:name="List files from FTP" doc:id="a2cc0253-e75e-44b0-b3e9-82a1c87c0cba" config-ref="FTP_Config2" directoryPath="#['/']"/>
-		<ee:transform doc:name="Transform Message" doc:id="fa0bdf6c-7cb5-4c51-b5a9-95939caea1f0" >
+		<ee:transform doc:name="Transform Message" doc:id="8758ec63-18d7-4267-b314-85f01176fb9b" >
 			<ee:message >
-				<ee:set-payload resource="mapping02.dwl" />
-				<ee:set-attributes resource="mapping02.dwl" />
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+
+---
+
+(payload.attributes filter $.directory == false).fileName]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 		<error-handler >
