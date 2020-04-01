@@ -11,12 +11,7 @@ http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/fil
 		<ftp:list doc:name="List files from FTP" doc:id="a2cc0253-e75e-44b0-b3e9-82a1c87c0cba" config-ref="FTP_Config2" directoryPath="#['/']"/>
 		<ee:transform doc:name="Transform Message" doc:id="8758ec63-18d7-4267-b314-85f01176fb9b" >
 			<ee:message >
-				<ee:set-payload ><![CDATA[%dw 2.0
-output application/json
-
----
-
-(payload.attributes filter $.directory == false).fileName]]></ee:set-payload>
+				<ee:set-payload resource="mapping_t02.dwl" />
 			</ee:message>
 		</ee:transform>
 		<error-handler >
