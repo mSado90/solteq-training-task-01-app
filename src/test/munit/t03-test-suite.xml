@@ -10,7 +10,7 @@
 	<munit:config name="training_task03-test-suite.xml" />
 	<munit:test name="t03_mainFlowTest" doc:id="08ba8f12-a3d7-41fb-824d-0f758be2f70e" description="Test">
 		<munit:behavior >
-			<munit-tools:mock-when doc:name="Mock when" doc:id="2ffad447-0415-4780-b46d-6b06b6ca4892" processor="ftp:read">
+			<munit-tools:mock-when doc:name="Mock read file from FTP" doc:id="2ffad447-0415-4780-b46d-6b06b6ca4892" processor="ftp:read">
 				<munit-tools:with-attributes >
 					<munit-tools:with-attribute whereValue="786293ea-aef1-4d0b-8b26-d751ee0ad556" attributeName="doc:id" />
 				</munit-tools:with-attributes>
@@ -20,7 +20,7 @@
 			</munit-tools:mock-when>
 		</munit:behavior>
 		<munit:execution >
-			<flow-ref doc:name="Flow-ref to training_task03Flow1" doc:id="0d6fbf88-1b4d-428b-98df-8829603a18de" name="t03_mainFlow"/>
+			<flow-ref doc:name="Flow-ref to t03 flow" doc:id="0d6fbf88-1b4d-428b-98df-8829603a18de" name="t03_mainFlow"/>
 		</munit:execution>
 		<munit:validation >
 			<munit-tools:assert-equals doc:name="Assert equals" doc:id="d3bd80d9-6b41-4d54-8195-db3a4925de18" actual="#[payload[sizeOf(payload) - 1].id]" expected="#[528]"/>
@@ -28,7 +28,7 @@
 	</munit:test>
 	<munit:test name="t03_error1Test" doc:id="44d8cf80-2ed8-42a8-a792-a2c01c81094e">
 		<munit:behavior >
-			<munit-tools:mock-when doc:name="Mock when" doc:id="07e82edc-66a2-481f-a6b4-39ca7b8d86c4" processor="ftp:read">
+			<munit-tools:mock-when doc:name="Mock read file from FTP" doc:id="07e82edc-66a2-481f-a6b4-39ca7b8d86c4" processor="ftp:read">
 				<munit-tools:with-attributes >
 					<munit-tools:with-attribute whereValue="786293ea-aef1-4d0b-8b26-d751ee0ad556" attributeName="doc:id" />
 				</munit-tools:with-attributes>
@@ -39,7 +39,7 @@
 		</munit:behavior>
 		<munit:execution>
 			<try doc:name="Try" doc:id="f37cb032-9130-48dc-b39b-f51627811ddc" >
-				<flow-ref doc:name="Flow Reference" doc:id="7ac7475e-29d8-4057-8050-84fa625e7281" name="t03_mainFlow"/>
+				<flow-ref doc:name="Flow-ref to t03 flow" doc:id="7ac7475e-29d8-4057-8050-84fa625e7281" name="t03_mainFlow"/>
 				<error-handler >
 					<on-error-continue enableNotifications="true" logException="true" doc:name="On Error Continue" doc:id="33391e75-4541-4f5e-987a-d47e1b5a3d2d" type="FTP:ACCESS_DENIED">
 						<logger level="INFO" doc:name="Logger" doc:id="71a80408-7f90-48ce-813b-d61dcf5fd1ff" message="#['Access denied in test environment: ' ++ (error.description default &quot;&quot;)]"/>
@@ -48,7 +48,7 @@
 			</try>
 		</munit:execution>
 		<munit:validation >
-			<munit-tools:verify-call doc:name="Verify call" doc:id="cc0779eb-9229-4c37-bacf-fa1fe75a8894" processor="logger" atLeast="1">
+			<munit-tools:verify-call doc:name="Verify call logger inside error flow" doc:id="cc0779eb-9229-4c37-bacf-fa1fe75a8894" processor="logger" atLeast="1">
 				<munit-tools:with-attributes >
 					<munit-tools:with-attribute whereValue="040e0dc5-fb4b-4d31-bc23-e12a232cfa49" attributeName="doc:id" />
 				</munit-tools:with-attributes>
@@ -57,7 +57,7 @@
 	</munit:test>
 	<munit:test name="t03_error2Test" doc:id="6df9f04e-7989-4639-bd52-2a06755ca1ca" >
 		<munit:behavior >
-			<munit-tools:mock-when doc:name="Mock when" doc:id="8c88eea3-a19f-459a-bb7f-f1b55acea116" processor="ftp:read">
+			<munit-tools:mock-when doc:name="Mock read file from FTP" doc:id="8c88eea3-a19f-459a-bb7f-f1b55acea116" processor="ftp:read">
 				<munit-tools:with-attributes >
 					<munit-tools:with-attribute whereValue="786293ea-aef1-4d0b-8b26-d751ee0ad556" attributeName="doc:id" />
 				</munit-tools:with-attributes>
@@ -68,7 +68,7 @@
 		</munit:behavior>
 		<munit:execution >
 			<try doc:name="Try" doc:id="4d8c6ab8-d9e3-41a2-991c-54bc3ad011fa" >
-				<flow-ref doc:name="Flow Reference" doc:id="6accdd90-6517-4705-ac21-fb2a34426ef2" name="t03_mainFlow"/>
+				<flow-ref doc:name="Flow-ref to t03 flow" doc:id="6accdd90-6517-4705-ac21-fb2a34426ef2" name="t03_mainFlow"/>
 				<error-handler >
 					<on-error-continue enableNotifications="true" logException="true" doc:name="On Error Continue" doc:id="49bc7807-a575-40c1-8011-f6bb049e6799" >
 						<logger level="INFO" doc:name="Logger" doc:id="9f52548a-f9ec-4757-baca-ab96e450da5d" message="#['An error occured in test environment: ' ++ (error.description default '')]"/>
@@ -77,7 +77,7 @@
 			</try>
 		</munit:execution>
 		<munit:validation >
-			<munit-tools:verify-call doc:name="Verify call" doc:id="bb74c009-de56-4e42-aa9b-f424a041caee" processor="logger" atLeast="1">
+			<munit-tools:verify-call doc:name="Verify call logger inside error flow" doc:id="bb74c009-de56-4e42-aa9b-f424a041caee" processor="logger" atLeast="1">
 				<munit-tools:with-attributes >
 					<munit-tools:with-attribute whereValue="720f9f0c-3975-4176-8d7b-7547b3fc970e" attributeName="doc:id" />
 				</munit-tools:with-attributes>

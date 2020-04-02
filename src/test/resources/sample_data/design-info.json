@@ -11,6 +11,9 @@
     "8758ec63-18d7-4267-b314-85f01176fb9b": {},
     "79c837ee-67cd-49c1-aabb-a6e74f3b4719": {
       "vars-number": "sample_data/defaultnumbertype.dwl"
+    },
+    "05bfd309-28ef-489a-a82f-2388c98a58fe": {
+      "payload": "sample_data/list_json_2.json"
     }
   }
 }
